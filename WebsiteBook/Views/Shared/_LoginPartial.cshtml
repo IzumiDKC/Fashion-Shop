@@ -1,0 +1,82 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using FashionShopDemo.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Xin Chào @UserManager.GetUserName(User)!</a>
+    </li>
+    <li class="nav-item">
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">
+                    <i class="fas fa-sign-out-alt"></i> Đăng Xuất
+                </button>
+        </form>
+    </li>
+}
+else
+{
+     <li class="nav-item">
+        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">
+            <span class="link-text">Đăng Ký</span>
+            <i class="fas fa-user-plus icon"></i>
+        </a>
+     </li>
+     <li class="nav-item">
+        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">
+            <span class="link-text">Đăng Nhập</span>
+            <i class="fas fa-sign-in-alt icon"></i>
+        </a>
+     </li>
+}
+</ul>
+
+@* Css *@
+<style>
+    #register:hover .link-text {
+        color: blueviolet; 
+    }
+
+    #register .icon {
+        margin-left: 5px;
+        display: none; /
+    }
+
+    #register:hover .icon {
+        display: inline-block; 
+    }
+
+    #login:hover .link-text {
+        color: #1e90ff; 
+    }
+
+    #login .icon {
+        margin-left: 5px; 
+        display: none;
+    }
+
+    #login:hover .icon {
+        display: inline-block;
+    }
+
+    #logout {
+        color: #D986B1 !important;
+    }
+
+    #logout:hover {
+        color: #FED46E;
+    }
+    #logout:hover i {
+       color: #D986B1; /* hoặc bất kỳ màu tím nào bạn muốn */
+    }
+    #logout {
+        font-weight: bold;
+    }
+</style>

@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Payment Result";
+}
+
+<h2>Payment Result</h2>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+else
+{
+    <p>Payment successful!</p>
+}

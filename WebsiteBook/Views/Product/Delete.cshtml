@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Admin/Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model FashionShopDemo.Models.Product
+<h2>Delete Product</h2>
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <p>Bạn có chắc chắn muốn xóa @Model.Name?</p>
+    <button type="submit" class="btn btn-danger">Xóa</button>
+</form>
+

@@ -1,0 +1,130 @@
+﻿@{
+    ViewData["Title"] = "Display";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int numOfQuantity = 1;
+}
+
+@model FashionShopDemo.Models.Product
+
+<div class="container my-5">
+    <h1 class="text-center mb-5">@Model.Name</h1>
+    <div class="row">
+        <div class="col-md-6">
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <img src="@Model.ImageUrl" alt="Product Image" class="img-fluid rounded shadow-sm" />
+            }
+        </div>
+        <div class="col-md-6">
+            <div class="product-details">
+                <p class="price lead mb-3"><span>@Model.Price.ToString("#.000") VNĐ</span></p>
+                <p class="category mb-3">Loại Quần Áo: @Model.Category.Name</p>
+
+                @{
+                    string brandName = "Chưa cập nhật";
+                    switch (Model.BrandId)
+                    {
+                        case 1:
+                            brandName = "Adidas";
+                            break;
+                        case 2:
+                            brandName = "Puma";
+                            break;
+                        case 3:
+                            brandName = "Nike";
+                            break;
+                        case 4:
+                            brandName = "Việt Tiến";
+                            break;
+                        case 5:
+                            brandName = "Yame";
+                            break;
+                        case 6:
+                            brandName = "Canifa";
+                            break;
+                        case 7:
+                            brandName = "DGU";
+                            break;
+                        case 8:
+                            brandName = "ONOFF";
+                            break;
+                        case 9:
+                            brandName = "Thomas Nguyen";
+                            break;
+                        default:
+                            brandName = "Chưa cập nhật";
+                            break;
+                    }
+                }
+                <p class="brand mb-3">Thương Hiệu: @brandName</p>
+
+                <p class="status mb-3">Trình Trạng: <strong>@(Model.Status ? "Còn Hàng" : "Hết Hàng")</strong></p>
+                <p class="description mb-4">Mô Tả: @(Model.Description ?? "Chưa cập nhật")</p>
+
+                <div class="d-grid gap-2">
+                    <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@Model.Id" asp-route-quantity="@numOfQuantity" class="btn btn-success btn-lg rounded-pill">
+                        <i class="bi-cart-fill me-1"></i> Thêm vào giỏ hàng
+                    </a>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a class="btn btn-primary btn-lg rounded-pill" asp-action="Update" asp-route-id="@Model.Id">Chỉnh Sửa</a>
+                    }
+
+                    <a class="btn btn-dark btn-lg rounded-pill" asp-controller="Home" asp-action="Index">Quay Về</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-details {
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .price {
+        color: #007bff;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .category, .brand, .status, .description {
+        font-size: 1.1em;
+        margin-top: 10px;
+    }
+
+    .btn-custom {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        transition: background-color 0.3s, transform 0.3s;
+        border-radius: 50px;
+    }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .btn-custom:focus, .btn-custom:active {
+            background-color: #004494;
+            transform: scale(0.95);
+        }
+
+    .btn {
+        border-radius: 50px !important;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+</style>

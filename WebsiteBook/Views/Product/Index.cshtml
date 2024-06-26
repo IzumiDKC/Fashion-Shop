@@ -1,0 +1,109 @@
+﻿@model IEnumerable<FashionShopDemo.Models.Product>
+
+@{
+    ViewData["Title"] = "Sản Phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Danh Sách Sản Phẩm</h1>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="mb-4 text-right">
+            <a asp-action="Add" class="btn btn-success">Thêm Sản Phẩm</a>
+        </div>
+    }
+
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">
+                            <strong>Giá:</strong> @product.Price.ToString("#.000") VNĐ<br>
+                            <strong>Giảm Giá:</strong> @((int)product.PromotionPrice.Value)%<br>
+                            <strong>Mô tả:</strong> @product.Description<br>
+                            <strong>Loại Quần Áo:</strong> @product.Category.Name<br>
+                            <strong>Thương Hiệu:</strong>
+                            @{
+                                string brandName = product.BrandId switch
+                                {
+                                    1 => "Adidas",
+                                    2 => "Puma",
+                                    3 => "Nike",
+                                    4 => "Việt Tiến",
+                                    5 => "Yame",
+                                    6 => "Canifa",
+                                    _ => "Chưa Cập Nhật"
+                                };
+                                @brandName
+                            }<br>
+                            <strong>Nội Dung SEO:</strong> @product.SeoTitle<br>
+                            <strong>Trạng Thái:</strong>
+                            @if (product.Status)
+                            {
+                                <span class="badge badge-success">Còn Hàng</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-danger">Hết Hàng</span>
+                            }<br>
+                            <strong>Số Lượng:</strong> @(product.Quantity.HasValue ? product.Quantity.ToString() : "Chưa Cập Nhật")<br>
+                            <strong>Hàng HOT:</strong>
+                            @if (product.IsHot)
+                            {
+                                <i class="fas fa-check text-success"></i>
+                            }
+                            else
+                            {
+                                <i class="fas fa-times text-danger"></i>
+                            }<br>
+                            <strong>Thời Gian HOT:</strong>
+                            @if (product.IsHot && product.HotStartDate.HasValue)
+                            {
+                                <div>@product.HotStartDate.Value.ToString("yyyy-MM-dd HH:mm:ss")</div>
+                                <div>@product.HotEndDate.Value.ToString("yyyy-MM-dd HH:mm:ss")</div>
+                            }
+                            else
+                            {
+                                <span>Chưa Cập Nhật</span>
+                            }
+                        </p>
+                    </div>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="card-footer text-center">
+                            <div class="btn-group" role="group">
+                                <a asp-action="Display" asp-route-id="@product.Id" class="btn btn-info">Chi Tiết</a>
+                                <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning">Chỉnh Sửa</a>
+                                <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Xóa</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .card-body p {
+        margin-bottom: 0.5rem;
+    }
+
+    .badge {
+        font-size: 90%;
+    }
+
+    .card-footer .btn-group .btn {
+        margin-right: 5px;
+    }
+</style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

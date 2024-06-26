@@ -1,0 +1,70 @@
+﻿@model FashionShopDemo.Models.Order
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác nhận xóa đơn hàng</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 mt-5">
+                <div class="card">
+                    <h5 class="card-header">Xác nhận xóa đơn hàng</h5>
+                    <div class="card-body">
+                        <p class="card-text">Bạn có chắc chắn muốn xóa đơn hàng sau không?</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Ngày Đặt Hàng: @Model.OrderDate.ToShortDateString()</li>
+                            <li class="list-group-item">Tổng Trị Giá: @Model.TotalPrice.ToString("#.000") VNĐ</li>
+                        </ul>
+                        <form method="post" action="@Url.Action("UserDeleteOrder", "Orders")">
+                            <input type="hidden" name="orderId" value="@Model.Id" />
+                            <button type="submit" class="btn btn-danger mt-3">Xác nhận xóa</button>
+                            <a href="@Url.Action("UserOrders", "Orders")" class="btn btn-secondary mt-3">Hủy bỏ</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+
+    .card {
+        border: none; /* Bỏ viền */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+    }
+
+    .card-header {
+        background-color: #dc3545; /* Màu nền tiêu đề */
+        color: #fff; /* Màu chữ tiêu đề */
+        border-bottom: none; /* Bỏ viền dưới tiêu đề */
+    }
+
+    .card-body {
+        padding: 30px; /* Khoảng cách bên trong */
+    }
+
+    .card-text {
+        font-size: 18px; /* Cỡ chữ */
+    }
+
+    .list-group-item {
+        background-color: #fff; /* Màu nền item */
+        border: none; /* Bỏ viền item */
+    }
+
+    .btn-danger {
+        background-color: #dc3545; /* Màu nền nút xóa */
+        border-color: #dc3545; /* Màu viền nút xóa */
+    }
+
+    .btn-secondary {
+        background-color: #6c757d; /* Màu nền nút hủy */
+        border-color: #6c757d; /* Màu viền nút hủy */
+    }
+</style>

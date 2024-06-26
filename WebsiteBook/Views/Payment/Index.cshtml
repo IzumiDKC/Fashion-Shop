@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Payment";
+}
+
+<h2>Payment</h2>
+
+<form action="/Payment/CreatePayment" method="post">
+    <div>
+        <label>Amount:</label>
+        <input type="text" name="amount" />
+    </div>
+    <div>
+        <label>Order Info:</label>
+        <input type="text" name="orderInfo" />
+    </div>
+    <button type="submit">Pay with MoMo</button>
+</form>

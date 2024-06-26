@@ -1,0 +1,2542 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\verifyphonenumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\verifyphonenumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\verifyotp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\verifyotp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\verifyphonenumber.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\verifyphonenumber.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\controllers\\smscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\smscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\payment\\momo\\momopaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\payment\\momo\\momopaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\payment\\momo\\momoconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\payment\\momo\\momoconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\doancs\\webstitebook\\websitebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240528085744_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519074012_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519072211_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519065609_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240430071202_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\source\\repos\\WebsiteBook\\WebsiteBook\\Migrations\\20240417070820_initialOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Introduce.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ShoppingCart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ProductComment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\OrderDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\MoMoPaymentRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\NotFound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\BrandController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\SmsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\payOS\\PayOSPaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\OrderCompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\ConfirmUserDeleteOrder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Extensions\\SessionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\PaymentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Filter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SmsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240530172336_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SendMail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings - Copy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\ReturnUrl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\ConstantHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\FashionShopDemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFCategoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IBrandRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFBrandRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\ICategoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Admin\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Checkout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Order.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResult.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResultCate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\ProductAdd.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T18:27:36.859Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:09:33.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2072371817:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAANAAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T09:01:48.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T09:00:11.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T08:59:46.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebsiteBook\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAYwFYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T07:58:25.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAEQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T07:57:16.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:19:26.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VerifyOtp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T06:16:56.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T03:18:52.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:18:33.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageNavPages.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAADwv3sAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:17:21.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAqwHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:13:52.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VerifyOtp.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwCUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:16:56.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VerifyPhoneNumber.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T03:18:55.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T03:18:28.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T03:17:23.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebsiteBook\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:05:09.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\appsettings.json",
+              "RelativeDocumentMoniker": "WebsiteBook\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\appsettings.json",
+              "RelativeToolTip": "WebsiteBook\\appsettings.json",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T03:37:43.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VerifyPhoneNumber.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:18:58.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T03:21:58.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ChangePassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAYwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:17:36.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T03:17:31.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "WebsiteBook\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:17:09.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SmsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Controllers\\SmsController.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\SmsController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Controllers\\SmsController.cs",
+              "RelativeToolTip": "WebsiteBook\\Controllers\\SmsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:16:59.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MoMoPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
+              "RelativeToolTip": "WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:16:39.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MoMoConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
+              "RelativeToolTip": "WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:16:37.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T03:16:06.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T14:39:36.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T05:42:37.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAcwLQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T09:11:23.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T04:57:00.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Introduce.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Introduce.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\Introduce.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Introduce.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\Introduce.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACsAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T08:59:59.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T10:16:43.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAcwKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:16:06.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T19:16:06.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T13:12:04.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Images.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Images.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\Images.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Images.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\Images.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:53:25.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.json",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-18T13:55:09.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABICAAAAAAAAAAAAADMCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:14:42.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\CartItem.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:56:07.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "VerifyPhoneNumber.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T06:07:35.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T08:01:38.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:57:06.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Role.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:56:39.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProductComment.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ProductComment.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\ProductComment.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ProductComment.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\ProductComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:13:28.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Product.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\Product.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:52:42.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:29:36.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Order.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\Order.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:27:50.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "MoMoPaymentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\MoMoPaymentRequest.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\MoMoPaymentRequest.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\MoMoPaymentRequest.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\MoMoPaymentRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:39:51.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:51:40.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Category.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:52:07.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Brand.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:21:43.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "NotFound.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\NotFound.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\NotFound.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\NotFound.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\NotFound.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T16:26:06.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAAIsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:16:15.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Update.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Update.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Update.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T18:05:05.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Add.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Add.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:57:43.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAE8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T06:39:34.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Update.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Update.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T13:23:47.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Add.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Add.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T12:10:26.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAADwv2oAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:54:44.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Controllers\\BrandController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwFoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:59:49.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "SmsController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\SmsController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Controllers\\SmsController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\SmsController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Controllers\\SmsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T10:06:33.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T06:18:52.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T04:30:32.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:16:43.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Delete.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T13:23:04.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAiwG8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:53:24.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Display.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Display.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:38:43.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Display.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Display.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Display.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Display.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAMoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:58:04.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:58:07.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Program.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Program.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Program.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:00:57.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T09:17:35.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T09:12:06.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAIBJwGEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:38:47.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "PayOSPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\payOS\\PayOSPaymentService.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Payment\\payOS\\PayOSPaymentService.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\payOS\\PayOSPaymentService.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Payment\\payOS\\PayOSPaymentService.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T11:52:28.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAiwEoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T13:49:53.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "OrderCompleted.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T09:12:56.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T06:48:56.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.Development.json",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-19T05:24:36.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAxwCAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:08:52.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "UserOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwCYAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T11:39:20.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Add.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAIBJwAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:37:54.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:38:37.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T10:11:41.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T09:25:01.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T09:25:48.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T18:33:01.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ConfirmUserDeleteOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\ConfirmUserDeleteOrder.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\ConfirmUserDeleteOrder.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\ConfirmUserDeleteOrder.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Orders\\ConfirmUserDeleteOrder.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAIBJwBYAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T12:16:53.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Extensions\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Extensions\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Extensions\\SessionExtensions.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Extensions\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:51:15.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAwIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:42:46.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ConfirmEmail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwCkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:46:41.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T09:49:51.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ConfirmEmailChange.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T07:45:56.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAIBJwFYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T06:27:06.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T16:04:14.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T06:38:50.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T17:45:52.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAApwIoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T11:09:23.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAADMAAAAAAAAAAIBJwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-19T06:53:53.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T08:04:34.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Filter.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Filter.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\Filter.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Filter.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Home\\Filter.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T12:23:30.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:27:11.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "SmsService.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SmsService.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SmsService.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SmsService.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SmsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T10:04:14.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "20240530172336_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240530172336_Initial.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240530172336_Initial.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240530172336_Initial.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240530172336_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:23:36.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "SendMail.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SendMail.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SendMail.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SendMail.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SendMail.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBAAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:44:13.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20240430062255_ExtendIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:22:55.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "20240430062303_ExtendIdentityUser.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:23:03.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "20240430062310_InitialOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:23:10.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "20240430062343_StatusOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:23:43.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "Cart.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Cart.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Cart.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Cart.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Cart.css",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwCQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-19T11:42:20.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240528085744_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240528085744_Initial.cs",
+              "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240528085744_Initial.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240528085744_Initial.cs",
+              "RelativeToolTip": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240528085744_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T08:57:44.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "launchSettings - Copy.json",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings - Copy.json",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings - Copy.json",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings - Copy.json",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings - Copy.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T16:20:12.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-05-27T13:12:34.607Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T16:14:19.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T09:12:19.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "ResetPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAqwF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T06:22:41.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "ResendEmailConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T10:46:34.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "Success.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T08:01:49.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "VerifyPhoneNumber.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwEIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T06:07:38.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "ConfirmEmailChange.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T07:45:56.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "ManageNavPages.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwHIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:17:49.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "MoMoConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:50:37.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "MoMoPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAcwE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T14:38:13.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Payment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\Index.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Payment\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T14:49:31.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T06:17:56.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "ReturnUrl.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\ReturnUrl.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Payment\\ReturnUrl.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\ReturnUrl.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Payment\\ReturnUrl.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T14:50:24.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "ConstantHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\ConstantHelper.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\ConstantHelper.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\ConstantHelper.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\ConstantHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:49:55.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T09:17:32.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240519074012_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519074012_Initial.cs",
+              "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519074012_Initial.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519074012_Initial.cs",
+              "RelativeToolTip": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519074012_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T07:40:13.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20240519072211_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519072211_Initial.cs",
+              "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519072211_Initial.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519072211_Initial.cs",
+              "RelativeToolTip": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519072211_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T07:22:11.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240519065609_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519065609_Initial.cs",
+              "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519065609_Initial.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519065609_Initial.cs",
+              "RelativeToolTip": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519065609_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T06:56:09.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Home.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-19T06:54:50.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "FashionShopDemo.csproj",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\FashionShopDemo.csproj",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\FashionShopDemo.csproj",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\FashionShopDemo.csproj",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\FashionShopDemo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-09T08:03:32.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T06:57:57.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAEAAAAAAAAAAAA2wAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-30T08:57:23.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Login.css",
+              "ViewState": "AQIAACwAAAAAAAAAAAAUwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-20T08:06:02.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T06:20:13.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T06:21:53.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T06:17:34.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 142,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T06:11:21.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 143,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T06:17:35.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 144,
+              "Title": "ResendEmailConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAUwE8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T10:46:33.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 145,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T17:45:51.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 146,
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Repositories\\EFCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFCategoryRepository.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Repositories\\EFCategoryRepository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vyIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:22:49.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 147,
+              "Title": "IBrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IBrandRepository.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Repositories\\IBrandRepository.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IBrandRepository.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Repositories\\IBrandRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:43:06.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 148,
+              "Title": "EFBrandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFBrandRepository.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Repositories\\EFBrandRepository.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFBrandRepository.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Repositories\\EFBrandRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:43:16.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 149,
+              "Title": "EFProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Repositories\\EFProductRepository.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFProductRepository.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Repositories\\EFProductRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwDEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:18:12.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 150,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:26:41.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 151,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Repositories\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:43:24.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 152,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAABIAAAAAAAAAAIBpwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-18T04:28:02.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 153,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T13:36:13.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 154,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAmwAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:11:30.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 155,
+              "Title": "Checkout.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Checkout.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Checkout.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Checkout.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Checkout.css",
+              "ViewState": "AQIAABsAAAAAAAAAAIBpwA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-19T13:02:36.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240430071202_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240430071202_Initial.cs",
+              "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240430071202_Initial.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240430071202_Initial.cs",
+              "RelativeToolTip": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240430071202_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T07:12:02.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 156,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:29:05.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 157,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T08:46:49.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 158,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T07:58:46.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 159,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:34:37.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 160,
+              "Title": "Order.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Order.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Order.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Order.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Order.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-20T09:40:05.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 161,
+              "Title": "SearchResult.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResult.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResult.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResult.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResult.css",
+              "ViewState": "AQIAACMAAAAAAAAAAAAUwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-20T04:46:16.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 162,
+              "Title": "SearchResultCate.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResultCate.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResultCate.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResultCate.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResultCate.css",
+              "ViewState": "AQIAACUAAAAAAAAAAAAUwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-20T07:40:19.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 163,
+              "Title": "ProductAdd.css",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\ProductAdd.css",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\ProductAdd.css",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\ProductAdd.css",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\ProductAdd.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-19T07:50:24.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 164,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "..\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T13:58:12.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240417070820_initialOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\source\\repos\\WebsiteBook\\WebsiteBook\\Migrations\\20240417070820_initialOrder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\WebsiteBook\\WebsiteBook\\Migrations\\20240417070820_initialOrder.cs",
+              "ToolTip": "C:\\Users\\Dien\\source\\repos\\WebsiteBook\\WebsiteBook\\Migrations\\20240417070820_initialOrder.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\WebsiteBook\\WebsiteBook\\Migrations\\20240417070820_initialOrder.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T07:08:20.556Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿@model FashionShopDemo.Models.Order
+@{
+    ViewData["Title"] = "Đặt Hàng Thành Công";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="success-container">
+    <img src="/images/success.png" alt="Success Icon" class="success-icon">
+    <h1 class="success-title">Đặt Hàng Thành Công</h1>
+    <p class="success-message">Mã đơn hàng của bạn là: <strong>#@Model.Id</strong> </p>
+
+</div>
+<style>
+    .success-container {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .success-icon {
+        width: 100px;
+        height: auto;
+    }
+
+    .success-title {
+        color: #4CAF50;
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .success-message {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+</style>

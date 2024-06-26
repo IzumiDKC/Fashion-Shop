@@ -1,0 +1,148 @@
+﻿
+
+
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); 
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .5rem 1rem; 
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    transition: background-color 0.3s ease; 
+}
+
+    
+    .dropdown-item:hover {
+        color: palevioletred; 
+        background-color: #f8f9fa; 
+    }
+
+
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+.nav-background {
+    background-color: papayawhip;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-background {
+  /* background-image: url("/images/t.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: initial;
+}
+header {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0; 
+    background-color: lightpink; 
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer .col-md-4.text-center {
+    flex: 0; 
+}
+.footer {
+    padding: 30px 0;
+    background-color: #f7f7f7; 
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px; 
+}
+
+.footer .row {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+    .footer .col-md-4 {
+        flex: 1; 
+        text-align: center; 
+    }
+
+    .footer h4 {
+        margin-bottom: 20px; 
+        font-size: 18px;
+    }
+
+    .footer ul {
+        list-style: none; 
+        padding: 0;
+    }
+
+    .footer li {
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        color: #333;
+        text-decoration: none; 
+        transition: color 0.3s ease; 
+    }
+
+        .footer a:hover {
+            color: #007bff;
+        }
+
+    .footer img {
+        max-width: 200px; 
+        height: auto; 
+    }
+
+.navbar-brand img {
+    max-height: 100%;
+    margin-top: 5px; 
+}
+

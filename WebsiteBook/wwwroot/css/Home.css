@@ -1,0 +1,45 @@
+﻿
+
+/* Hiệu ứng cho nút "Xem chi tiết" */
+.btn-view-details {
+    transition: transform 0.3s;
+    background-color: #bd6267;
+}
+
+    .btn-view-details:hover {
+        transform: scale(1.1);
+        background-color: #343a40;
+    }
+
+/* Hiệu ứng cho nút "Thêm vào giỏ" */
+.btn-add-to-cart {
+    transition: background-color 0.3s;
+    background-color: #0081a7;
+}
+
+    .btn-add-to-cart:hover {
+        background-color: #343a40;
+        color: #ffffff;
+        transform: scale(1.1);
+    }
+
+
+/* Giá */
+.price-changing-color {
+    animation: changeColor 5s infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        color: #0B409C;
+    }
+
+    50% {
+        color: #0D226B;
+    }
+
+    100% {
+        color: #FDBE34;
+    }
+}
+

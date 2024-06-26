@@ -1,0 +1,35 @@
+﻿@model IEnumerable<FashionShopDemo.Models.Product>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filtered Products</title>
+    <!-- Định nghĩa các tài nguyên CSS, JavaScript cần thiết -->
+</head>
+<body>
+    <h1>Danh sách sản phẩm đã lọc</h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Thương hiệu</th>
+                    <th>Giá</th>
+                    <th>Loại quần áo</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.Name</td>
+                        <td>@product.Brand</td>
+                        <td>@product.Price.ToString("#,##0").000 Vnđ</td>
+                        <td>@product.Category.Name</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+﻿@model IEnumerable<FashionShopDemo.Models.Order>
+
+@{
+    ViewData["Title"] = "Đơn Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<link rel="stylesheet" href="~/css/Order.css">
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Danh Sách Đơn Hàng</h1>
+
+    <div class="text-right mb-3">
+        <button onclick="confirmCreateOrder()" class="btn btn-primary">Tạo Đơn Hàng Mới</button>
+    </div>
+
+    @foreach (var item in Model)
+    {
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5><i class="fas fa-calendar-alt text-primary"></i> Ngày Đặt Hàng: <span class="text-primary">@item.OrderDate.ToShortDateString()</span></h5>
+                        <p><i class="fas fa-money-bill-wave text-success"></i> Tổng Trị Giá: <span class="text-success">@item.TotalPrice.ToString("#.000") VNĐ</span></p>
+                        <p>
+                            <i class="fas fa-map-marker-alt text-info"></i> Địa Chỉ Nhận Hàng:
+                            @if (string.IsNullOrEmpty(item.ShippingAddress))
+                            {
+                                <span class="text-muted">Chưa cập nhật</span>
+                            }
+                            else
+                            {
+                                <span class="text-info">@item.ShippingAddress</span>
+                            }
+                        </p>
+                        <p>
+                            <i class="fas fa-sticky-note text-warning"></i> Ghi Chú: @if (string.IsNullOrEmpty(item.Notes))
+                            {
+                                <span class="text-muted">Chưa cập nhật</span>
+                            }
+                            else
+                            {
+                                <span class="text-warning">@item.Notes</span>
+                            }
+                        </p>
+                        @{
+                            string partialUserId = item.UserId.Length > 8
+                            ? item.UserId.Substring(0, 4) + "..." + item.UserId.Substring(item.UserId.Length - 4)
+                            : item.UserId;
+                        }
+                        <p><i class="fas fa-user text-danger"></i> Mã Khách Hàng: <span class="text-danger">@partialUserId</span></p>
+                        <p><i class="fas fa-info-circle text-info"></i> Trạng Thái: <span class="text-info">@item.Status</span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5><i class="fas fa-list text-secondary"></i> Chi Tiết Đơn Hàng</h5>
+                        <ul class="list-group">
+                            @foreach (var detail in item.OrderDetails)
+                            {
+                                <li class="list-group-item"><i class="fas fa-box"></i> @detail.Product.Name - @detail.Quantity x @detail.FinalPrice.ToString("#.000") VNĐ</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-info show-status-modal" data-order-id="@item.Id" data-status="@item.Status">Thay Đổi Trạng Thái</button>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Xóa</a>
+            </div>
+        </div>
+    }
+
+    <div class="modal fade" id="statusModal" tabindex="-1" role="dialog" aria-labelledby="statusModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="statusModalLabel">Thay Đổi Trạng Thái Đơn Hàng</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <select class="form-control status-dropdown" id="modalStatusDropdown">
+                        <option value="Đã xác nhận">Đã xác nhận</option>
+                        <option value="Đang giao hàng">Đang giao hàng</option>
+                        <option value="Đã nhận hàng">Đã nhận hàng</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" id="saveStatusButton">Lưu Thay Đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script>
+
+            function getStatusColor(status) {
+                switch (status) {
+                    case "Đã xác nhận":
+                        return "green";
+                    case "Đang giao hàng":
+                        return "orange";
+                    case "Đã nhận hàng":
+                        return "blue";
+                    default:
+                        return "gray";
+                }
+            }
+
+            function getStatusIcon(status) {
+                switch (status) {
+                    case "Đã xác nhận":
+                        return "check-circle";
+                    case "Đang giao hàng":
+                        return "truck";
+                    case "Đã nhận hàng":
+                        return "check-square";
+                    default:
+                        return "question-circle";
+                }
+            }
+
+            var selectedOrderId;
+
+            function confirmCreateOrder() {
+                if (confirm("Bạn có chắc chắn muốn tạo đơn hàng mới?")) {
+                    window.location.href = '@Url.Action("Create", "Orders")';
+                } else {
+                    window.location.href = "/Orders";
+                }
+            }
+
+            $(document).ready(function () {
+                $('.show-status-modal').click(function () {
+                    selectedOrderId = $(this).data('order-id');
+                    var currentStatus = $(this).data('status');
+
+                    if (currentStatus === "Đã hủy bởi người dùng") {
+                        alert("Đơn hàng đã bị hủy và không thể cập nhật.");
+                        return;
+                    }
+
+                    $('#modalStatusDropdown').val(currentStatus);
+                    $('#statusModal').modal('show');
+                });
+
+                $('#saveStatusButton').click(function () {
+                    var newStatus = $('#modalStatusDropdown').val();
+
+                    $.ajax({
+                        url: '@Url.Action("UpdateOrderStatus", "Orders")',
+                        type: 'POST',
+                        data: { orderId: selectedOrderId, status: newStatus },
+                        success: function (result) {
+                            // Hiển thị thông báo thành công
+                            alert('Trạng thái đơn hàng đã được cập nhật.');
+                            // Cập nhật hiển thị trạng thái mới
+                            $('button[data-order-id="' + selectedOrderId + '"]').closest('.card').find('.card-body .status-display span').text(newStatus);
+                            $('#statusModal').modal('hide');
+                        },
+                        error: function (xhr, status, error) {
+                            // Hiển thị thông báo lỗi
+                            alert('Đã xảy ra lỗi khi cập nhật trạng thái đơn hàng.');
+                            console.log(xhr.responseText);
+                        }
+                    });
+                });
+
+                $('[data-dismiss="modal"]').click(function () {
+                    $('#statusModal').modal('hide');
+                });
+            });
+        </script>
+    }

@@ -1,0 +1,63 @@
+﻿@model List<FashionShopDemo.Models.Order>
+
+<h1 class="text-center mb-4">Các đơn hàng đã đặt</h1>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-center">Ngày Đặt Hàng</th>
+                <th class="text-center">Tổng Trị Giá</th>
+                <th class="text-center">Địa Chỉ Nhận Hàng</th>
+                <th class="text-center">Tình trạng</th>
+                <th class="text-center">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td class="text-center">@order.OrderDate.ToShortDateString()</td>
+                    <td class="text-center">@order.TotalPrice.ToString("#.000") VNĐ</td>
+                    <td class="text-center">@order.ShippingAddress</td>
+
+                    <td class="text-center">
+                        @if (order.Status == "Đã xác nhận")
+                        {
+                            <i class="fas fa-check-circle text-success"> @order.Status</i>
+                        }
+                        else if (order.Status == "Đang giao hàng")
+                        {
+                            <i class="fas fa-truck text-primary"> @order.Status</i>
+                        }
+                        else if (order.Status == "Đã nhận hàng")
+                        {
+                            <i class="fas fa-check-double text-info"> @order.Status</i>
+                        }
+                        else if (order.Status == "Đã hủy bởi người dùng")
+                        {
+                            <span class="text-danger"><i class="fas fa-times-circle text-danger"></i> Đã hủy</span>
+                        }
+                        else
+                        {
+                            <i class="fas fa-clock text-muted"></i> @order.Status
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if (order.Status == "Đã xác nhận" || order.Status == "Đang giao hàng" || order.Status == "Đã nhận hàng" || order.Status == "Đã hủy bởi người dùng")
+                        {
+                            <button class="btn btn-secondary" disabled>Không thể hủy</button>
+                        }
+                        else
+                        {
+                            <form method="post" action="@Url.Action("UserDeleteOrder", "Orders")" onsubmit="return confirm('Bạn có chắc chắn muốn hủy đơn hàng này không?');">
+                                <input type="hidden" name="orderId" value="@order.Id" />
+                                <button type="submit" class="btn btn-danger">Xóa</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

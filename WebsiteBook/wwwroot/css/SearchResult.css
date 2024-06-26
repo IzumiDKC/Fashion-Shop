@@ -1,0 +1,67 @@
+﻿.book-image {
+    max-height: 250px; /* Đảm bảo hình ảnh đầy đủ chiều rộng của card */
+    object-fit: cover; /* Điều chỉnh chiều cao tối đa của hình ảnh */
+}
+
+.product-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+    .product-card:hover {
+        transform: scale(1.05);
+    }
+
+.price-buttons {
+    flex-direction: column;
+}
+
+.price, .buttons {
+    width: 100%;
+    text-align: center;
+}
+
+    .buttons .btn {
+        margin-top: 5px;
+    }
+
+/* Hiệu ứng cho nút "Xem chi tiết" */
+.btn-view-details {
+    transition: transform 0.3s;
+    background-color: #bd6267;
+}
+
+    .btn-view-details:hover {
+        transform: scale(1.1);
+        background-color: #343a40;
+    }
+
+/* Hiệu ứng cho nút "Thêm vào giỏ" */
+.btn-add-to-cart {
+    transition: background-color 0.3s;
+    background-color: #0081a7;
+}
+
+    .btn-add-to-cart:hover {
+        background-color: #343a40;
+        color: #ffffff;
+        transform: scale(1.1);
+    }
+
+/* Giá */
+.price-changing-color {
+    animation: changeColor 5s infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        color: #0B409C;
+    }
+
+    50% {
+        color: #0D226B;
+    }
+
+    100% {
+        color: #FDBE34;
+    }
+}

@@ -1,0 +1,82 @@
+﻿@page
+@using FashionShopDemo.Areas.Identity.Pages.Account
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Đăng Nhập";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h2 class="text-center mb-4">@ViewData["Title"]</h2>
+                    <img src="/images/loginlogo.png" alt="Logo" class="login-logo">
+                    <form id="account" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Email" id="Input_Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                            <label asp-for="Input.Email" class="form-label">Email</label>
+                            <span id="email-error" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Input.Password" id="Input_Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                            <label asp-for="Input.Password" class="form-label">Mật Khẩu</label>
+                            <span id="password-error" class="text-danger"></span>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" asp-for="Input.RememberMe" id="rememberMe" />
+                            <label class="form-check-label" for="rememberMe">Ghi nhớ</label>
+                        </div>
+                        <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary mb-3"> Đăng Nhập</button>
+                        <div class="text-center">
+                            <a id="forgot-password" asp-page="./ForgotPassword">Quên mật khẩu?</a>
+                        </div>
+                        <div class="text-center mt-3">
+                            <p>
+                                Chưa có tài khoản? <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Đăng ký tại đây!</a>
+                            </p>
+                            <p>
+                                <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Xác nhận email của bạn</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+<style>
+    .login-logo {
+        margin-bottom: 20px;
+        display: block; 
+        margin: 0 auto;
+        width: 150px;
+        height: auto; 
+    }
+
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("login-submit").addEventListener("click", function (event) {
+            var emailInput = document.getElementById("Input_Email");
+            var passwordInput = document.getElementById("Input_Password");
+
+            if (emailInput.value.trim() === "") {
+                event.preventDefault(); // Ngăn form submit
+                document.getElementById("email-error").innerText = "Vui lòng nhập tài khoản"; 
+            }
+
+            if (passwordInput.value.trim() === "") {
+                event.preventDefault(); 
+                document.getElementById("password-error").innerText = "Vui lòng nhập mật khẩu"; 
+            }
+        });
+    });
+
+</script>

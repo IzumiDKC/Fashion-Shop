@@ -1,0 +1,187 @@
+﻿@using FashionShopDemo.Models
+@using System.Globalization;
+@model ShoppingCart
+@{
+    ViewData["Title"] = "Giỏ Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    <div id="notification" class="alert alert-success" style="display: none;"></div>
+
+}
+
+<link rel="stylesheet" href="~/css/Cart.css">
+<div class="container">
+    <h2 class="mb-4 bold-and-color-changing centered-text">Giỏ Hàng Của Bạn</h2>
+
+    <div class="table-responsive">
+        <table class="table table-striped cart-table">
+            <thead>
+                <tr class="">
+                    <th scope="col">Tên Sản Phẩm</th>
+                    <th scope="col">Số Lượng</th>
+                    <th scope="col">Giá</th>
+                    <th scope="col">Giảm Giá</th>
+                    <th scope="col">Tổng</th>
+                    <th scope="col">Thao Tác</th>
+                </tr>
+            </thead>
+            <tbody class="colum">
+                @foreach (var item in Model.Items)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>
+                            <div class="quantity-control">
+                                <button class="btn btn-sm btn-outline-secondary decrease-btn" type="button" onclick="decreaseQuantity(@item.ProductId)">-</button>
+                                <input id="quantity_@item.ProductId" type="number" class="form-control quantity-input" value="@item.Quantity" min="1" onchange="updateTotal(@item.ProductId)">
+                                <button class="btn btn-sm btn-outline-secondary increase-btn" type="button" onclick="increaseQuantity(@item.ProductId)">+</button>
+                            </div>
+                        </td>
+                        <td id="price_@item.ProductId">@item.Price.ToString()0 VNĐ</td>
+                        @{
+                            decimal discount = 0;
+                            if (item.PromotionPrice.HasValue && item.PromotionPrice.Value > 0) {
+                                Console.WriteLine(@item.PromotionPrice);
+                                decimal promotionPrice = item.PromotionPrice.Value;
+                                discount = (item.Price * promotionPrice / 100);
+                                <td id="discount_@item.ProductId" class="" style="color: red">@discount.ToString("#.000") VNĐ</td>
+                            }
+                            else 
+                            {
+                                decimal promotionPrice = item.PromotionPrice.Value;
+                                discount = (item.Price * promotionPrice / 100);
+                                <td id="discount_@item.ProductId" class="" style="color: red">@discount.ToString("#.000") VNĐ</td>
+                            }
+                        }
+
+                        <td id="total_@item.ProductId" class="" style="font-weight: bold">@((item.Price - (discount * item.Quantity)).ToString("#.000")) VNĐ</td>
+
+                        <td>
+                            <button class="btn btn-sm btn-danger btn-remove" data-product-id="@item.ProductId">Xóa</button>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="text-right mt-4">
+            <h4>Tổng số tiền cần thanh toán: <span id="totalAmount">@ViewBag.TotalPrice.ToString("#.000") VNĐ</span></h4>
+        </div>
+    <div class="text-center mt-4">
+        <a class="btn btn-lg btn-success" href="javascript:history.go(-1)">Tiếp Tục Mua Sắm</a>
+    </div>
+    <div style="text-center mt-4">
+        <a class="btn btn-lg btn-primary btn-checkout" href="#">Tiến Hành Thanh Toán</a>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const removeButtons = document.querySelectorAll(".btn-remove");
+            removeButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const productId = this.getAttribute("data-product-id");
+                    console.log("Removing product with ID: " + productId);
+                    fetch("/ShoppingCart/RemoveFromCart?productId=" + productId + "&_=" + Math.random(), {
+                        method: "POST"
+                    })
+                        .then(response => {
+                            if (response.ok) {
+                                document.getElementById("notification").innerText = "Đang tiến hành xóa sản phẩm...";
+                                document.getElementById("notification").style.display = "block";
+                                setTimeout(function () {
+                                    document.getElementById("notification").style.display = "none";
+                                    // Sau khi thông báo biến mất, reload
+                                    window.location.reload();
+                                    alert("Xóa sản phẩm thành công!");
+                                }, 1500);
+
+                            } else {
+                                console.error("Failed to remove product.");
+                            }
+                        })
+                        .catch(error => {
+                            console.error("An error occurred:", error);
+                        });
+                });
+            });
+            const checkoutButton = document.querySelector(".btn-checkout");
+            checkoutButton.addEventListener("click", function () {
+                console.log("Checkout button clicked");
+                window.location.href = "/ShoppingCart/Checkout"
+            });
+        });
+        function decreaseQuantity(productId) {
+            var quantityInput = document.getElementById("quantity_" + productId);
+            var newQuantity = parseInt(quantityInput.value) - 1;
+            if (newQuantity >= 1) {
+                quantityInput.value = newQuantity;
+                updateTotal(productId);
+            }
+        }
+
+        function increaseQuantity(productId) {
+            var quantityInput = document.getElementById("quantity_" + productId);
+            var newQuantity = parseInt(quantityInput.value) + 1;
+            quantityInput.value = newQuantity;
+            updateTotal(productId);
+        }
+
+        function updateTotal(productId) {
+            var quantityInput = document.getElementById("quantity_" + productId);
+            var priceElement = document.getElementById("price_" + productId);
+            var discountElement = document.getElementById("discount_" + productId);
+            var totalElement = document.getElementById("total_" + productId);
+
+            var price = parseInt(priceElement.innerText.replace(/\D/g, ''));
+            var discount = parseInt(discountElement.innerText.replace(/\D/g, ''));
+            var quantity = parseInt(quantityInput.value);
+
+            var total = (price - discount) * quantity; 
+
+            totalElement.innerText = total.toLocaleString() + " VNĐ";
+
+           
+            var totalAmount = 0;
+            var totalElements = document.querySelectorAll("[id^='total_']");
+            totalElements.forEach(element => {
+                totalAmount += parseInt(element.innerText.replace(/\D/g, ''));
+            });
+            document.getElementById("totalAmount").innerText = totalAmount.toLocaleString() + " VNĐ";
+        }
+    </script>
+    <style>
+
+        .quantity-control {
+            display: flex;
+                align-items: flex-start;    
+        }
+
+            .quantity-control .btn {
+                min-width: 30px;
+            }
+
+        .quantity-input {
+            width: 60px;
+            text-align: center;
+        }
+
+        .decrease-btn,
+        .increase-btn {
+            border-radius: 50%;
+            margin: 0 5px;
+        }
+
+        .decrease-btn:hover, .increase-btn:hover {
+                    border-radius: 50%;
+                    margin: 0 5px;
+                    height: 50px;
+                    line-height: 50px;
+            }
+
+    </style>
+}

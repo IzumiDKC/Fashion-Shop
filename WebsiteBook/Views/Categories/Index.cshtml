@@ -1,0 +1,57 @@
+﻿@using System.Security.Claims
+@model IEnumerable<FashionShopDemo.Models.Category>
+
+@{
+    ViewData["Title"] = "Loại Quần Áo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Danh Sách Loại Quần Áo</h1>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="text-right mb-3">
+            <a asp-action="Add" class="btn btn-success">Thêm Loại Quần Áo</a>
+        </div>
+    }
+
+    <div class="row">
+        @foreach (var category in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-align: center">@category.Name</h5>
+                        @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                        {
+                            <div class="text-center">
+                                <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-primary btn-sm">Chỉnh Sửa</a>
+                             @*    @if (User.IsInRole("Admin"))
+                                {
+                                    <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete('@category.Id')">Xóa</button>
+                                } *@
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmDelete(categoryId) {
+            if (confirm("Bạn có chắc chắn muốn xóa?")) {
+                if (confirm("Đây là hành động NGUY HIỂM và KHÔNG THỂ KHÔI PHỤC! Bạn vẫn muốn tiếp tục?")) {
+                    window.location.href = "/Categories/Delete?id=" + categoryId;
+                } else {
+                    window.location.href = "/Categories";
+                }
+            } else {
+                location.reload();
+            }
+        }
+    </script>
+}

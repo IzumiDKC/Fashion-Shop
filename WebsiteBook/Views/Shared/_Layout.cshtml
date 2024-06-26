@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Fashion Shop</title>
+    <link rel="icon" type="image/x-icon" href="/images/LogoTitle.png">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light border-bottom shadow-sm mb-3 py-2">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="/images/logonavbar.png" alt="Logo ĐACS - Fashion Shop" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Quản Lý
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Index"><i class="fas fa-box-open me-2"></i> Quản Lí Sản Phẩm</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Categories" asp-action="Index"><i class="fas fa-list-alt me-2"></i> Quản Lí Loại</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Brand" asp-action="Index"><i class="fas fa-tags me-2"></i> Quản Lí Thương Hiệu</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Orders" asp-action="Index"><i class="fas fa-file-invoice me-2"></i> Quản Lí Đơn Hàng</a></li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sản Phẩm
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Categories" asp-action="Index"><i class="fas fa-list-alt me-2"></i>Các Loại Quần Áo</a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Brand" asp-action="Index"><i class="fas fa-tags me-2"></i> Các Thương Hiệu</a></li>
+                                </ul>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Orders" asp-action="UserOrders">Xem Đơn Hàng Đã Đặt</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-dark me-2" type="button">
+                        <a class="nav-link text-dark p-0" asp-area="" asp-controller="ShoppingCart" asp-action="Index">
+                            <i class="fas fa-shopping-cart"></i> Giỏ Hàng
+                        </a>
+                    </button>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted bg-light py-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Giới thiệu</h5>
+                    <ul class="list-unstyled">
+                        <li><a asp-area="" asp-controller="Home" asp-action="Introduce">Về chúng tôi</a></li>
+                        <li><a href="#">Dịch vụ</a></li>
+                        <li><a href="#">Trang Chủ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Đóng góp ý kiến</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:fashionshop.official.vn@gmail.com">Email</a></li>
+                        <li><a href="tel:+84398272171">Hotline</a></li>
+                        <li><a href="https://facebook.com/Izumi.3107">Fanpage</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Thông tin liên hệ</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Khu+Công+nghệ+cao+Xa+Lộ+Hà+Nội,+Hiệp+Phú,+Thủ+Đức,+Thành+phố+Hồ+Chí+Minh,+Việt+Nam" target="_blank">
+                                Khu Công nghệ cao Xa Lộ Hà Nội, Hiệp Phú, Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i><a href="tel:+84398272171"> 0398 272 171</a>
+                        </li>
+                        <li><i class="fas fa-envelope"></i>
+                            <a href="mailto:fashionshop.official.vn@gmail.com">fashionshop.official.vn@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="/">
+                        <img src="/images/logonobg.png" alt="Logo" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4 mt-3 text-center">
+                    <a href="https://facebook.com/Izumi.3107"><i class="fab fa-facebook-f me-3"></i></a>
+                    <a href="#"><i class="fab fa-twitter me-3"></i></a>
+                    <a href="#"><i class="fab fa-instagram me-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+<style>
+    body {
+        font-family: "Playball", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        background-color: #f8f9fa;
+    }
+
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .footer-background {
+        background-color: #f8f9fa;
+    }
+
+    .footer-text {
+        color: #6c757d;
+    }
+
+        .footer-text:hover {
+            color: #343a40;
+            text-decoration: none;
+        }
+
+    .footer-text-intro, .footer-text-feedback, .footer-text-contact {
+        color: #343a40;
+        font-weight: bold;
+    }
+
+    .btn-cart {
+        display: flex;
+        align-items: center;
+    }
+
+        .btn-cart .nav-link {
+            padding: 0;
+            margin-left: 5px;
+        }
+</style>

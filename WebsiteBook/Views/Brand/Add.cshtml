@@ -1,0 +1,113 @@
+﻿@using Azure
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+        ViewData["Title"] = "Thêm Thương Hiệu";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model FashionShopDemo.Models.Brand
+
+    <h2 class="text-center"><strong>Thêm Thương Hiệu</strong></h2>
+    <form asp-action="Add" method="post" enctype="multipart/form-data" class="container mt-4">
+        <div class="form-group container2">
+            <label asp-for="Name">Nhập thể loại mới:</label>
+            <input asp-for="Name" class="form-control" placeholder="Ví dụ: Adidas" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="text-center mt-4">
+            <a class="btn btn-lg btn-secondary mr-2" href="javascript:history.go(-1)">Trở Về</a>
+            <button type="submit" class="btn btn-lg btn-primary">Thêm</button>
+        </div>
+    </form>
+
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f5f7;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container2 {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    h2.text-center {
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: 600;
+        color: #333;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: border-color 0.3s ease;
+        font-size: 16px;
+    }
+
+        input[type="text"]:focus {
+            border-color: #007bff;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .mt-4 {
+        margin-top: 1.5rem;
+    }
+
+    .mr-2 {
+        margin-right: 0.5rem;
+    }
+</style>

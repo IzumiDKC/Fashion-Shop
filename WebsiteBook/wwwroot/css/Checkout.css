@@ -1,0 +1,55 @@
+﻿/* Checkout.css */
+
+.container {
+    margin-top: 20px;
+}
+
+.header {
+    /* You can add styles for header if needed */
+}
+
+.col-md-6 {
+    margin: 0 auto; /* Centering the column */
+}
+
+#changing-color {
+    /* Animation styles */
+    animation: changeColor 5s infinite alternate; /* thay đổi màu sau mỗi 5 giây */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased spacing between form groups */
+}
+
+label {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+/* CSS để căn giữa văn bản và thay đổi màu chữ */
+@keyframes changeColor {
+    0% {
+        color: #00afb9;
+    }
+
+    50% {
+        color: #fed9b7;
+    }
+
+    100% {
+        color: #f07167;
+    }
+}

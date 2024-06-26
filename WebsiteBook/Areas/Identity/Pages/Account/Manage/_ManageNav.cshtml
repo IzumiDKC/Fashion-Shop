@@ -1,0 +1,123 @@
+﻿
+@inject SignInManager<ApplicationUser> SignInManager
+@{
+    var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
+}
+
+<ul class="nav nav-pills flex-column custom-nav">
+    <li class="nav-item">
+        <a class="nav-link profile-link @ManageNavPages.IndexNavClass(ViewContext)" id="profile" asp-page="./Index">
+            <i class="fas fa-user"></i> Hồ sơ
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link email-link @ManageNavPages.EmailNavClass(ViewContext)" id="email" asp-page="./Email">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link password-link @ManageNavPages.ChangePasswordNavClass(ViewContext)" id="change-password" asp-page="./ChangePassword">
+            <i class="fas fa-lock"></i> Mật khẩu
+        </a>
+    </li>
+    @if (hasExternalLogins)
+    {
+        <li class="nav-item">
+            <a class="nav-link external-login-link @ManageNavPages.ExternalLoginsNavClass(ViewContext)" id="external-login" asp-page="./ExternalLogins">
+                <i class="fas fa-sign-in-alt"></i> Đăng nhập bên ngoài
+            </a>
+        </li>
+    }
+    <li class="nav-item">
+        <a class="nav-link two-factor-link @ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext)" id="two-factor" asp-page="./TwoFactorAuthentication">
+            <i class="fas fa-shield-alt"></i> Xác thực hai yếu tố
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link personal-data-link @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">
+            <i class="fas fa-database"></i> Dữ liệu cá nhân
+        </a>
+    </li>
+</ul>
+<style> 
+    .custom-nav .nav-link {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+        border-radius: 5px;
+    }
+
+    .custom-nav .nav-link i {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .profile-link {
+        background-color: #e3f2fd;
+        color: #0d47a1;
+    }
+
+    .email-link {
+        background-color: #e8f5e9;
+        color: #2e7d32;
+    }
+
+    .password-link {
+        background-color: #fff3e0;
+        color: #ef6c00;
+    }
+
+    .external-login-link {
+        background-color: #fce4ec;
+        color: #c2185b;
+    }
+
+    .two-factor-link {
+        background-color: #f3e5f5;
+        color: #6a1b9a;
+    }
+
+    .personal-data-link {
+        background-color: #e0f2f1;
+        color: #004d40;
+    }
+
+    /* Hiệu ứng hover */
+    .custom-nav .nav-link:hover {
+        transform: scale(1.05);
+        color: white !important;
+    }
+
+    .profile-link:hover {
+        background-color: #0d47a1;
+    }
+
+    .email-link:hover {
+        background-color: #2e7d32;
+    }
+
+    .password-link:hover {
+        background-color: #ef6c00;
+    }
+
+    .external-login-link:hover {
+        background-color: #c2185b;
+    }
+
+    .two-factor-link:hover {
+        background-color: #6a1b9a;
+    }
+
+    .personal-data-link:hover {
+        background-color: #004d40;
+    }
+
+    /* Hiệu ứng cho liên kết đang hoạt động */
+    .custom-nav .nav-link.active {
+        font-weight: bold;
+        transform: scale(1.1);
+    }
+</style>

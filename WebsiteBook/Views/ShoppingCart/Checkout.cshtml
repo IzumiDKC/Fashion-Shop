@@ -1,0 +1,69 @@
+﻿@using FashionShopDemo.Models
+@model Order
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/Checkout.css">
+<div class="container">
+    <div class="header"></div>
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h2 class="mb-0 text-center" id="changing-color">Thanh Toán</h2>
+            <form asp-action="Checkout" method="post" id="checkoutForm">
+                <div class="form-group">
+                    <label for="TotalPrice">Tổng Giá Trị Đơn Hàng: </label>
+                    <input id="TotalPrice" class="form-control" value="@Model.TotalPrice.ToString("#.000") VNĐ" readonly />
+                </div>
+                <div class="form-group">
+                    <label for="shippingAddress">Địa Chỉ Nhận Hàng: </label>
+                    <input id="shippingAddress" asp-for="ShippingAddress" class="form-control" placeholder="Khu Công nghệ cao TP.HCM (SHTP), Xa lộ Hà Nội, P. Hiệp Phú, TP. Thủ Đức, TP.HCM" required />
+                </div>
+                <div class="form-group">
+                    <label for="notes">Ghi Chú Cho Đơn Hàng: </label>
+                    <textarea id="notes" asp-for="Notes" class="form-control" placeholder="Đóng gói cẩn thận!" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="paymentMethod">Chọn Hình Thức Thanh Toán:</label>
+                    <select id="paymentMethod" class="form-control">
+                        <option value="cash">Tiền mặt</option>
+                        <option value="momo">MoMo</option>
+                        <option value="vnpay">VNPay</option>
+                        <option value="payos">PayOS</option>
+                    </select>
+                </div>
+
+                <button type="submit" id="submitButton" class="btn btn-primary">Đặt Hàng</button>
+                <input type="hidden" id="paymentMethodInput" name="paymentMethod" value="" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('checkoutForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+        var paymentMethod = document.getElementById('paymentMethod').value;
+        document.getElementById('paymentMethodInput').value = paymentMethod;
+        this.submit();
+    });
+    document.getElementById('paymentMethod').addEventListener('change', function () {
+        var paymentMethod = this.value;
+        var hiddenInput = document.getElementById('paymentMethodInput');
+        hiddenInput.value = paymentMethod;
+    });
+    var inputElement = document.getElementById("shippingAddress");
+    var exampleValue = inputElement.placeholder;
+
+    inputElement.addEventListener("focus", function () {
+        if (this.value === exampleValue) {
+            this.value = "";
+        }
+    });
+
+    inputElement.addEventListener("blur", function () {
+        if (this.value === "") {
+            this.value = exampleValue;
+        }
+    });
+</script>

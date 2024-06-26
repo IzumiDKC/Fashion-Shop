@@ -1,0 +1,254 @@
+﻿@model FashionShopDemo.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+        ViewData["Title"] = "Cập Nhật Sản Phẩm";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <link rel="stylesheet" href="~/css/ProductAdd.css">
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0 text-center" id="changing-color">Cập Nhật Sản Phẩm</h5>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Update" method="post" enctype="multipart/form-data">
+                            <input type="hidden" asp-for="Id" />
+                            <div class="form-group">
+                                <label asp-for="Name" class="font-weight-bold">Tên Sản Phẩm</label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Price" class="font-weight-bold">Giá</label>
+                                <input asp-for="Price" class="form-control" />
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="PromotionPrice" class="font-weight-bold">Giảm Giá (%)</label>
+                                <input asp-for="PromotionPrice" class="form-control" />
+                                <span asp-validation-for="PromotionPrice" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Description" class="font-weight-bold">Mô Tả</label>
+                                <textarea asp-for="Description" class="form-control"></textarea>
+                                <span asp-validation-for="Description" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="CategoryId" class="font-weight-bold">Loại Thời Trang</label>
+                                <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control">
+                                    <option value="">-- Chọn Loại Đồ --</option>
+                                </select>
+                                <span asp-validation-for="CategoryId" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="BrandId" class="font-weight-bold">Thương Hiệu</label>
+                                <select asp-for="BrandId" asp-items="ViewBag.Brands" class="form-control">
+                                    <option value="">-- Chọn Thương Hiệu --</option>
+                                </select>
+                                <span asp-validation-for="BrandId" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="ImageUrl">Ảnh Sản Phẩm</label>
+                                <input type="file" asp-for="ImageUrl" class="form-control" id="imageInput" onchange="previewImage(event)" />
+                                <div id="imageContainer" style="display: flex;">
+                                    <img id="currentImage" src="@Model.ImageUrl" alt="Current Product Image" style="max-width: 200px; margin-top: 10px; margin-right: 20px;" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="SeoTitle" class="font-weight-bold">Tiêu Đề SEO</label>
+                                <input asp-for="SeoTitle" class="form-control" />
+                                <span asp-validation-for="SeoTitle" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Quantity" class="font-weight-bold">Số Lượng</label>
+                                <input asp-for="Quantity" class="form-control" />
+                                <span asp-validation-for="Quantity" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="IsHot" class="font-weight-bold">
+                                    Hàng Hot
+                                    <input type="checkbox" id="IsHot" asp-for="IsHot" class="form-control visually-hidden" />
+                                    <span class="toggle-button">
+                                        <span class="toggle-button-inner"></span>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="HotStartDate" class="font-weight-bold">Thời Gian Bắt Đầu: </label>
+                                <input asp-for="HotStartDate" type="datetime-local" class="form-control" id="HotStartDate"
+                                       value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")" />
+                                <span asp-validation-for="HotStartDate" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="HotEndDate" class="font-weight-bold">Thời Gian Kết Thúc: </label>
+                                <input asp-for="HotEndDate" type="datetime-local" class="form-control" id="HotEndDate"
+                                       value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")" />
+                                <span asp-validation-for="HotEndDate" class="text-danger"></span>
+                            </div>
+                            <br />
+                            <button type="submit" class="btn btn-primary btn-block">Cập Nhật Sản Phẩm</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<style>
+    .form-group label {
+        display: flex;
+        align-items: center; 
+        font-weight: bold;
+    }
+
+    .toggle-button {
+        width: 25px; 
+        height: 25px;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-right: 10px; 
+    }
+
+    .form-group input[type="checkbox"].visually-hidden {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .toggle-button {
+        display: inline-block;
+        width: 50px;
+        height: 25px;
+        background-color: #ccc;
+        border-radius: 15px;
+        cursor: pointer;
+        position: relative; 
+    }
+
+    .toggle-button-inner {
+        display: block;
+        width: 21px;
+        height: 21px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 2px; 
+        left: 2px;
+        transition: transform 0.3s;
+    }
+
+    .form-group input[type="checkbox"]:checked + .toggle-button {
+        background-color: #007bff;
+    }
+
+        .form-group input[type="checkbox"]:checked + .toggle-button .toggle-button-inner {
+            transform: translateX(24px);
+        }
+
+    #imageContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let promotionPriceInput = document.getElementById("PromotionPrice");
+        if (promotionPriceInput.value === "") {
+            promotionPriceInput.value = "0";
+        }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+        let hotEndDateInput = document.getElementById("HotEndDate");
+        let now = new Date();
+        now.setDate(now.getDate() + 1); 
+
+        let formattedDate = now.toISOString().slice(0, 19);
+
+        hotEndDateInput.value = formattedDate;
+    });
+
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const isHotCheckbox = document.getElementById("IsHot");
+        const hotStartDateInput = document.getElementById("HotStartDate").closest(".form-group");
+        const hotEndDateInput = document.getElementById("HotEndDate").closest(".form-group");
+
+        function toggleHotDates() {
+            if (isHotCheckbox.checked) {
+                hotStartDateInput.style.display = "block";
+                hotEndDateInput.style.display = "block";
+            } else {
+                hotStartDateInput.style.display = "none";
+                hotEndDateInput.style.display = "none";
+            }
+        }
+
+        isHotCheckbox.addEventListener("change", toggleHotDates);
+        toggleHotDates(); 
+    });
+
+
+
+
+
+
+    function previewImage(event) {
+        var input = event.target;
+        var reader = new FileReader();
+        reader.onload = function () {
+            var preview = document.getElementById('preview');
+            var currentImage = document.getElementById('currentImage');
+
+            var previewImage = document.createElement('img');
+            previewImage.src = reader.result;
+            previewImage.alt = "Preview";
+            previewImage.style.maxWidth = "200px";
+            previewImage.style.marginTop = "10px";
+
+            // Tạo một container cho cả ảnh cũ và ảnh mới
+            var imageContainer = document.createElement('div');
+            imageContainer.style.display = 'flex';
+            imageContainer.style.alignItems = 'center'; // Căn giữa theo chiều dọc
+
+            // Kiểm tra nếu không có tệp ảnh mới được chọn, sử dụng ảnh cũ
+            if (input.files && input.files[0]) {
+                // Hiển thị ảnh mới nếu có
+                imageContainer.appendChild(currentImage);
+                imageContainer.appendChild(previewImage);
+            } else {
+                // Hiển thị ảnh cũ nếu không có ảnh mới
+                imageContainer.appendChild(currentImage.cloneNode(true));
+            }
+
+            // Hiển thị cả ảnh cũ và ảnh mới
+            var container = document.getElementById('imageContainer');
+            container.innerHTML = ''; // Xóa nội dung cũ trong container
+            container.appendChild(imageContainer);
+
+            // Tạo một phần tử <p> chứa dòng chữ "Sau update" và căn giữa theo chiều ngang
+            var afterUpdateText = document.createElement('p');
+            afterUpdateText.textContent = "Sau update";
+            afterUpdateText.style.margin = '0 auto'; // Căn giữa theo chiều ngang
+            container.appendChild(afterUpdateText);
+
+            preview.style.display = 'block';
+        }
+
+        // Kiểm tra xem có tệp ảnh mới được chọn không
+        if (input.files && input.files[0]) {
+            reader.readAsDataURL(input.files[0]);
+        } else {
+            // Nếu không, không cần đọc và hiển thị ảnh mới
+            previewImage(event);
+        }
+    }
+</script>

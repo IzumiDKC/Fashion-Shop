@@ -1,0 +1,62 @@
+﻿/* Style cho h1 */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style cho h2 */
+h2 {
+    font-size: 1.8rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Style cho hr */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Style cho form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style cho input */
+input.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Style cho label */
+label.form-label {
+    font-weight: bold;
+}
+
+/* Style cho button */
+button.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    /*  background-color: #007bff; */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*  button.btn:hover {
+        background-color: #0056b3;
+    } */
+
+/* Style cho span.text-danger */
+span.text-danger {
+    font-size: 0.9rem;
+    color: #dc3545;
+}

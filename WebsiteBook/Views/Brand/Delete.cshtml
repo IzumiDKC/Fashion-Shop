@@ -1,0 +1,47 @@
+﻿@{
+    @model FashionShopDemo.Models.Brand
+
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="delete-form">
+        <form asp-action="DeleteConfirmed" method="post">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="confirmation-message">
+                <h3>Bạn có chắc chắn muốn xóa <strong>@Model.Name</strong>?</h3>
+            </div>
+
+            <div class="button-container">
+                <button type="submit" class="btn btn-danger">Xóa</button>
+                <a href="/Brand" class="btn btn-secondary">Hủy bỏ</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    .delete-form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .confirmation-message {
+        text-align: center;
+        color: red;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .btn {
+        margin: 0 10px; 
+    }
+</style>

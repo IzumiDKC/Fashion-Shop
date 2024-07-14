@@ -1,1 +1,1 @@
-Profect FullStack by Điền Nguyễn (2 months)
+Project FullStack by Điền Nguyễn (2 months)

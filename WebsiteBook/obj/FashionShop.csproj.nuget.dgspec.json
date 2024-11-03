@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\FashionShop.csproj": {}
+    "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\FashionShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\FashionShop.csproj": {
+    "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\FashionShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\FashionShop.csproj",
+        "projectUniqueName": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\FashionShop.csproj",
         "projectName": "FashionShop",
-        "projectPath": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\FashionShop.csproj",
+        "projectPath": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\FashionShop.csproj",
         "packagesPath": "C:\\Users\\Dien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebstiteBook\\WebsiteBook\\obj\\",
+        "outputPath": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,7 +89,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.6, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -98,6 +98,10 @@
             "RestSharp": {
               "target": "Package",
               "version": "[111.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )"
             },
             "System.Net.Http": {
               "target": "Package",

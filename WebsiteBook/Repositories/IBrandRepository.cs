@@ -12,5 +12,7 @@ namespace FashionShopDemo.Repositories
         Task AddAsync(Brand brand);
         Task UpdateAsync(Brand brand);
         Task DeleteAsync(int id);
+        Task<bool> ExistsAsync(int id); 
+
     }
 }

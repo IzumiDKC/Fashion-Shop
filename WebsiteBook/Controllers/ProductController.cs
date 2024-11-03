@@ -8,6 +8,7 @@ namespace FashionShopDemo.Controllers
 {
     public class ProductController : Controller
     {
+
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
         private readonly IBrandRepository _brandRepository;

@@ -43,5 +43,9 @@ namespace FashionShopDemo.Repositories
             _context.Brands.Update(brand); 
             await _context.SaveChangesAsync();
         }
+        public async Task<bool> ExistsAsync(int id) 
+        {
+            return await _context.Brands.AnyAsync(b => b.Id == id);
+        }
     }
 }

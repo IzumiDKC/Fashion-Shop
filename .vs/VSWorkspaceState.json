@@ -9,6 +9,6 @@
     "\\WebsiteBook\\Controllers",
     "\\WebsiteBook\\wwwroot"
   ],
-  "SelectedNode": "\\FashionShop.sln",
+  "SelectedNode": "\\WebsiteBook\\Controllers\\BrandApiController.cs",
   "PreviewInSolutionExplorer": false
 }

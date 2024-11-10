@@ -7,8 +7,11 @@
     "\\WebsiteBook\\Areas\\Identity\\Pages",
     "\\WebsiteBook\\Areas\\Identity\\Pages\\Account",
     "\\WebsiteBook\\Controllers",
+    "\\WebsiteBook\\Models",
+    "\\WebsiteBook\\Views",
+    "\\WebsiteBook\\Views\\Home",
     "\\WebsiteBook\\wwwroot"
   ],
-  "SelectedNode": "\\WebsiteBook\\Controllers\\BrandApiController.cs",
+  "SelectedNode": "\\WebsiteBook\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

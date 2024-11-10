@@ -4,13 +4,25 @@ using FashionShopDemo.Models;
 using FashionShopDemo.Repositories;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using FashionShopDemo.Areas.Identity.Helper;
 using FashionShopDemo.Payment.Momo.Config;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configuration
 var configuration = builder.Configuration;
 
+// Cấu hình xác thực (Google, Cookie và JWT)
+if (string.IsNullOrEmpty(builder.Configuration["Jwt:Key"]))
+{
+    // Tạo khóa ngẫu nhiên
+    var jwtKey = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
+    builder.Configuration["Jwt:Key"] = jwtKey;  // Lưu lại vào cấu hình
+}
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -19,8 +31,21 @@ builder.Services.AddAuthentication(options =>
     .AddCookie()
     .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
     {
-        options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-        options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+        options.ClientId = configuration["GoogleKeys:ClientId"];
+        options.ClientSecret = configuration["GoogleKeys:ClientSecret"];
+    })
+    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = configuration["Jwt:Issuer"],
+            ValidAudience = configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
+        };
     });
 
 builder.Services.AddDistributedMemoryCache();
@@ -31,53 +56,81 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Fashion Shop API", Version = "v1" });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Vui lòng nhập token ở dạng 'Bearer {token}'",
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] { }
+        }
+    });
+});
+
+
+
 builder.Services.AddSingleton<ConstantHelper>();
 builder.Services.AddTransient<SendMail>();
 builder.Services.AddSingleton<SmsService>();
 builder.Services.AddSingleton<PayOSPaymentService>();
-
-builder.Services.Configure<MoMoConfig>(builder.Configuration.GetSection("Momo"));
-
+builder.Services.Configure<MoMoConfig>(configuration.GetSection("Momo"));
 builder.Services.AddTransient<MoMoPaymentService>();
 
-//  Add-Migration Initial
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Đăng ký DbContext
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-//builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
-
+// Cấu hình Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddDefaultTokenProviders()
-                .AddDefaultUI()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddDefaultTokenProviders()
+    .AddDefaultUI()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
 
+// Cấu hình đường dẫn cho cookie đăng nhập
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = $"/Identity/Account/Login";
-    options.LogoutPath = $"/Identity/Account/Logout";
-    options.AccessDeniedPath = $"/Identity/Account/AccessDenied"; // sửa thành AccessDenied
+    options.LoginPath = "/Identity/Account/Login";
+    options.LogoutPath = "/Identity/Account/Logout";
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
 });
 
+// Đăng ký các dịch vụ cần thiết cho MVC, Session và API
 builder.Services.AddRazorPages();
-builder.Services.AddSession();
-
 builder.Services.AddControllersWithViews();
-builder.Services.AddControllers(); // Thêm để hỗ trợ API
+builder.Services.AddSession();
+builder.Services.AddControllers();
 
-// CORS policy cho phép gọi từ bất kỳ domain nào
+// CORS policy
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder =>
-        {
-            builder.AllowAnyOrigin()
-                   .AllowAnyMethod()
-                   .AllowAnyHeader();
-        });
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
 });
 
-// Bổ sung Swagger cho dễ test API
+// Swagger
 builder.Services.AddSwaggerGen();
 
+// Đăng ký các repository
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
 builder.Services.AddScoped<IBrandRepository, EFBrandRepository>();
@@ -85,7 +138,7 @@ builder.Services.AddScoped<MoMoPaymentService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -94,30 +147,30 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
-app.UseSession();
-
 app.UseRouting();
 
-app.UseCors("AllowAll"); // Bật CORS
+app.UseSession();
+app.UseCors("AllowAll");
 
 app.UseAuthentication();
-
 app.UseAuthorization();
 
-app.UseSwagger(); // Bật Swagger
+app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
 });
 
 app.MapRazorPages();
-
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(name: "Admin", pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-    endpoints.MapControllerRoute(name: "Default", pattern: "{controller=Home}/{action=Index}/{id?}");
-    endpoints.MapControllerRoute(name: "Search", pattern: "Product/Search", defaults: new { controller = "Home", action = "Search" });
-});
+app.MapControllerRoute(
+    name: "Admin",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "Default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "Search",
+    pattern: "Product/Search",
+    defaults: new { controller = "Home", action = "Search" });
 
 app.Run();

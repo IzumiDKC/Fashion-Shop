@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\brandapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\brandapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\categoriesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\brandapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\brandapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\repositories\\ibrandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -48,10 +88,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -106,10 +142,6 @@
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\areas\\identity\\pages\\account\\manage\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -156,10 +188,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -577,11 +605,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Email.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
@@ -613,59 +641,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "WebsiteBook\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Product.cs",
-              "RelativeToolTip": "WebsiteBook\\Models\\Product.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:30:49.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoriesApiController.cs",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\CategoriesApiController.cs",
-              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\CategoriesApiController.cs",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\CategoriesApiController.cs",
-              "RelativeToolTip": "WebsiteBook\\Controllers\\CategoriesApiController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAkwE0AAAAAAAAA",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\appsettings.json",
+              "RelativeDocumentMoniker": "WebsiteBook\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\appsettings.json",
+              "RelativeToolTip": "WebsiteBook\\appsettings.json",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T03:37:43.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebsiteBook\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwBkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:16:25.567Z",
+              "WhenOpened": "2024-11-10T14:03:31.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductApiController.cs",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ProductApiController.cs",
-              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ProductApiController.cs",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ProductApiController.cs",
-              "RelativeToolTip": "WebsiteBook\\Controllers\\ProductApiController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:05:49.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebsiteBook\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABYCAAAAAAAAAAAQwDMCAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T09:01:48.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "BrandApiController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\BrandApiController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\BrandApiController.cs",
@@ -678,7 +680,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Program.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Program.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Program.cs",
+              "RelativeToolTip": "WebsiteBook\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:18:55.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:19:26.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\Register.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Register.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\Register.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:04:20.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T12:01:28.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Login.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:05:01.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T09:01:48.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T12:01:30.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Category.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:32:49.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T12:01:53.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Product.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\Product.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:30:49.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwAkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T14:39:36.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoriesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\CategoriesApiController.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\CategoriesApiController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\CategoriesApiController.cs",
+              "RelativeToolTip": "WebsiteBook\\Controllers\\CategoriesApiController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAkwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:16:25.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ProductApiController.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ProductApiController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ProductApiController.cs",
+              "RelativeToolTip": "WebsiteBook\\Controllers\\ProductApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T08:05:49.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\CategoriesController.cs",
@@ -691,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\PaymentController.cs",
@@ -704,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "IBrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Repositories\\IBrandRepository.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Repositories\\IBrandRepository.cs",
@@ -717,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "EFBrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Repositories\\EFBrandRepository.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Repositories\\EFBrandRepository.cs",
@@ -730,33 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Program.cs",
-              "RelativeDocumentMoniker": "WebsiteBook\\Program.cs",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Program.cs",
-              "RelativeToolTip": "WebsiteBook\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:18:55.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\appsettings.json",
-              "RelativeDocumentMoniker": "WebsiteBook\\appsettings.json",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\appsettings.json",
-              "RelativeToolTip": "WebsiteBook\\appsettings.json",
-              "ViewState": "AQIAABkAAAAAAAAAAABRwDgAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T03:37:43.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ProductController.cs",
@@ -769,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\HomeController.cs",
@@ -782,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebsiteBook\\appsettings.Development.json",
@@ -795,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\ApplicationDbContext.cs",
@@ -808,59 +953,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
               "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
               "RelativeToolTip": "WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
-              "ViewState": "AQIAACUAAAAAAAAAACBjwEQAAAAFAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAIBpwEQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-23T07:57:16.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\Orders\\Index.cshtml",
               "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Orders\\Index.cshtml",
               "RelativeToolTip": "WebsiteBook\\Views\\Orders\\Index.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAACBjwAAAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAIBpwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-25T08:59:46.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
               "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeToolTip": "WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAACBjwC0AAAA2AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAIBpwC0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-25T09:00:11.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "WebsiteBook\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "WebsiteBook\\Models\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:19:26.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "VerifyOtp.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml",
@@ -873,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -886,7 +1018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\ShoppingCart.cs",
@@ -899,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "Email.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
@@ -912,7 +1044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "ManageNavPages.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
@@ -925,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
@@ -938,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "VerifyOtp.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
@@ -951,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "VerifyPhoneNumber.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
@@ -964,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "Email.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
@@ -977,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "Success.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
@@ -990,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "VerifyPhoneNumber.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
@@ -1003,20 +1135,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "ViewState": "AQIAABMAAAAAAAAAACBjwCYAAAAMAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAIBpwCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-18T03:21:58.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "ChangePassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
@@ -1029,7 +1161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
@@ -1042,7 +1174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ShoppingCartController.cs",
@@ -1055,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "SmsController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\SmsController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\SmsController.cs",
@@ -1068,7 +1200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "MoMoPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
@@ -1081,7 +1213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "MoMoConfig.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
@@ -1094,7 +1226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Brand\\Index.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\Brand\\Index.cshtml",
@@ -1107,20 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebsiteBook\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAACBjwAkAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T14:39:36.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "Email.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
@@ -1131,7 +1250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Index.cshtml",
@@ -1142,7 +1261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Privacy.cshtml",
@@ -1153,7 +1272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "Introduce.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Introduce.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Introduce.cshtml",
@@ -1164,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
@@ -1175,7 +1294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
@@ -1186,7 +1305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -1197,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -1208,7 +1327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 61,
               "Title": "Images.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Images.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Images.cs",
@@ -1219,7 +1338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 62,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.json",
@@ -1230,7 +1349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 63,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Index.cshtml",
@@ -1241,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 64,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\CartItem.cs",
@@ -1252,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 65,
               "Title": "VerifyPhoneNumber.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
@@ -1263,7 +1382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 66,
               "Title": "Success.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml",
@@ -1274,7 +1393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 67,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ShoppingCart.cs",
@@ -1285,7 +1404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 68,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Role.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Role.cs",
@@ -1296,7 +1415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 69,
               "Title": "ProductComment.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ProductComment.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ProductComment.cs",
@@ -1307,7 +1426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 70,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Product.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Product.cs",
@@ -1318,7 +1437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 71,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\OrderDetail.cs",
@@ -1329,7 +1448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 72,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Order.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Order.cs",
@@ -1340,7 +1459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 73,
               "Title": "MoMoPaymentRequest.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\MoMoPaymentRequest.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\MoMoPaymentRequest.cs",
@@ -1351,7 +1470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 74,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ErrorViewModel.cs",
@@ -1362,7 +1481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 75,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Category.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Category.cs",
@@ -1373,7 +1492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 76,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Brand.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\Brand.cs",
@@ -1384,7 +1503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 77,
               "Title": "NotFound.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\NotFound.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\NotFound.cshtml",
@@ -1395,7 +1514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 78,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\HomeController.cs",
@@ -1406,7 +1525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 79,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Update.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Update.cshtml",
@@ -1417,7 +1536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Add.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Add.cshtml",
@@ -1428,7 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\AccessDenied.cshtml",
@@ -1439,7 +1558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 82,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Update.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Update.cshtml",
@@ -1450,7 +1569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 83,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Add.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Add.cshtml",
@@ -1461,7 +1580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 84,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\CategoriesController.cs",
@@ -1472,7 +1591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 85,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\BrandController.cs",
@@ -1483,7 +1602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 86,
               "Title": "SmsController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\SmsController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\SmsController.cs",
@@ -1494,7 +1613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 87,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Create.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Create.cshtml",
@@ -1505,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 88,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Update.cshtml",
@@ -1516,7 +1635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 89,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ProductController.cs",
@@ -1527,7 +1646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 90,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Delete.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Delete.cshtml",
@@ -1538,7 +1657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 91,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
@@ -1549,7 +1668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 92,
               "Title": "Display.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Display.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Display.cshtml",
@@ -1560,7 +1679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 93,
               "Title": "Display.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Display.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Display.cshtml",
@@ -1571,7 +1690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 94,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Index.cshtml",
@@ -1582,7 +1701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 95,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Program.cs",
@@ -1593,7 +1712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 96,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewImports.cshtml",
@@ -1604,7 +1723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 97,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Checkout.cshtml",
@@ -1615,7 +1734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 98,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Index.cshtml",
@@ -1626,7 +1745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 99,
               "Title": "PayOSPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\payOS\\PayOSPaymentService.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\payOS\\PayOSPaymentService.cs",
@@ -1637,7 +1756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 100,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\Index.cshtml",
@@ -1648,7 +1767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 101,
               "Title": "OrderCompleted.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\OrderCompleted.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\ShoppingCart\\OrderCompleted.cshtml",
@@ -1659,7 +1778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 102,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\_ViewStart.cshtml",
@@ -1670,7 +1789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 103,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.Development.json",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\appsettings.Development.json",
@@ -1681,7 +1800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 104,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\OrdersController.cs",
@@ -1692,7 +1811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 105,
               "Title": "UserOrders.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
@@ -1703,7 +1822,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 106,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Add.cshtml",
@@ -1714,7 +1833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 107,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Product\\Delete.cshtml",
@@ -1725,7 +1844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 108,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Delete.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Delete.cshtml",
@@ -1736,7 +1855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 109,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Details.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Details.cshtml",
@@ -1747,7 +1866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 110,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Edit.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\Edit.cshtml",
@@ -1758,7 +1877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 111,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Brand\\Index.cshtml",
@@ -1769,7 +1888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 112,
               "Title": "ConfirmUserDeleteOrder.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\ConfirmUserDeleteOrder.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Orders\\ConfirmUserDeleteOrder.cshtml",
@@ -1780,7 +1899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 113,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Extensions\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Extensions\\SessionExtensions.cs",
@@ -1791,7 +1910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 114,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Controllers\\PaymentController.cs",
@@ -1802,7 +1921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 115,
               "Title": "ConfirmEmail.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
@@ -1813,7 +1932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 116,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
@@ -1824,7 +1943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 117,
               "Title": "ConfirmEmailChange.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
@@ -1835,7 +1954,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 118,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
@@ -1846,7 +1965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 119,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
@@ -1857,7 +1976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 120,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -1868,7 +1987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 121,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -1879,7 +1998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 122,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -1890,7 +2009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 123,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\site.css",
@@ -1901,7 +2020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 124,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -1912,7 +2031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 125,
               "Title": "Filter.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Filter.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Home\\Filter.cshtml",
@@ -1923,7 +2042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 126,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationDbContext.cs",
@@ -1934,7 +2053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 127,
               "Title": "SmsService.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SmsService.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SmsService.cs",
@@ -1945,7 +2064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 128,
               "Title": "20240530172336_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240530172336_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240530172336_Initial.cs",
@@ -1956,7 +2075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 129,
               "Title": "SendMail.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SendMail.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\SendMail.cs",
@@ -1967,7 +2086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 130,
               "Title": "20240430062255_ExtendIdentity.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs",
@@ -1978,7 +2097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 131,
               "Title": "20240430062303_ExtendIdentityUser.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs",
@@ -1989,7 +2108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 132,
               "Title": "20240430062310_InitialOrder.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs",
@@ -2000,7 +2119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 133,
               "Title": "20240430062343_StatusOrder.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs",
@@ -2011,7 +2130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 134,
               "Title": "Cart.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Cart.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Cart.css",
@@ -2022,7 +2141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "20240528085744_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240528085744_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240528085744_Initial.cs",
@@ -2033,7 +2152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 135,
               "Title": "launchSettings - Copy.json",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings - Copy.json",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings - Copy.json",
@@ -2044,7 +2163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 136,
               "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\favicon.ico",
@@ -2056,7 +2175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 137,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Properties\\launchSettings.json",
@@ -2067,7 +2186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 138,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
@@ -2078,7 +2197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 139,
               "Title": "ResetPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
@@ -2089,7 +2208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 140,
               "Title": "ResendEmailConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
@@ -2100,7 +2219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 141,
               "Title": "Success.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\Success.cshtml.cs",
@@ -2111,7 +2230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 142,
               "Title": "VerifyPhoneNumber.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
@@ -2122,7 +2241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 143,
               "Title": "ConfirmEmailChange.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
@@ -2133,7 +2252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 144,
               "Title": "ManageNavPages.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
@@ -2144,7 +2263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 145,
               "Title": "MoMoConfig.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoConfig.cs",
@@ -2155,7 +2274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 146,
               "Title": "MoMoPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Payment\\Momo\\MoMoPaymentService.cs",
@@ -2166,7 +2285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 147,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\Index.cshtml",
@@ -2177,7 +2296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 148,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -2188,7 +2307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 149,
               "Title": "ReturnUrl.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\ReturnUrl.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Payment\\ReturnUrl.cshtml",
@@ -2199,7 +2318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 150,
               "Title": "ConstantHelper.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\ConstantHelper.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Helper\\ConstantHelper.cs",
@@ -2210,7 +2329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 151,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\Error.cshtml",
@@ -2221,7 +2340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "20240519074012_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519074012_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519074012_Initial.cs",
@@ -2232,7 +2351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "20240519072211_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519072211_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519072211_Initial.cs",
@@ -2243,7 +2362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "20240519065609_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519065609_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240519065609_Initial.cs",
@@ -2254,7 +2373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 152,
               "Title": "Home.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Home.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Home.css",
@@ -2265,7 +2384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 153,
               "Title": "FashionShopDemo.csproj",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\FashionShopDemo.csproj",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\FashionShopDemo.csproj",
@@ -2276,7 +2395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 154,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Categories\\Delete.cshtml",
@@ -2287,7 +2406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 155,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\js\\site.js",
@@ -2298,7 +2417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 156,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Login.css",
@@ -2309,7 +2428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 157,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -2320,7 +2439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 158,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
@@ -2331,7 +2450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 159,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -2342,7 +2461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 160,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -2353,7 +2472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 161,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -2364,7 +2483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 162,
               "Title": "ResendEmailConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
@@ -2375,7 +2494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 163,
               "Title": "RegisterConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
@@ -2386,7 +2505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 164,
               "Title": "EFCategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFCategoryRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFCategoryRepository.cs",
@@ -2397,7 +2516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 165,
               "Title": "IBrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IBrandRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IBrandRepository.cs",
@@ -2408,7 +2527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 166,
               "Title": "EFBrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFBrandRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFBrandRepository.cs",
@@ -2419,7 +2538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 167,
               "Title": "EFProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFProductRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\EFProductRepository.cs",
@@ -2430,7 +2549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 168,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\ICategoryRepository.cs",
@@ -2441,7 +2560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 169,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Repositories\\IProductRepository.cs",
@@ -2452,7 +2571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 170,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_Layout.cshtml.css",
@@ -2463,7 +2582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 171,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_LoginPartial.cshtml",
@@ -2474,7 +2593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 172,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Admin\\Controllers\\ProductController.cs",
@@ -2485,7 +2604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 173,
               "Title": "Checkout.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Checkout.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Checkout.css",
@@ -2496,7 +2615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "20240430071202_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240430071202_Initial.cs",
               "RelativeDocumentMoniker": "..\\..\\Test\\WebsiteBook\\WebsiteBook\\Migrations\\20240430071202_Initial.cs",
@@ -2507,7 +2626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 174,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Models\\ApplicationUser.cs",
@@ -2518,7 +2637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
+              "DocumentIndex": 175,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -2529,7 +2648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 169,
+              "DocumentIndex": 176,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -2540,7 +2659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 170,
+              "DocumentIndex": 177,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -2551,7 +2670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 171,
+              "DocumentIndex": 178,
               "Title": "Order.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Order.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\Order.css",
@@ -2562,7 +2681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 172,
+              "DocumentIndex": 179,
               "Title": "SearchResult.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResult.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResult.css",
@@ -2573,7 +2692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 173,
+              "DocumentIndex": 180,
               "Title": "SearchResultCate.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResultCate.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\SearchResultCate.css",
@@ -2584,7 +2703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 174,
+              "DocumentIndex": 181,
               "Title": "ProductAdd.css",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\ProductAdd.css",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\wwwroot\\css\\ProductAdd.css",
@@ -2595,7 +2714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 175,
+              "DocumentIndex": 182,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "..\\..\\DoANCS\\WebsiteBook\\WebsiteBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -2606,7 +2725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "20240417070820_initialOrder.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\source\\repos\\WebsiteBook\\WebsiteBook\\Migrations\\20240417070820_initialOrder.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\WebsiteBook\\WebsiteBook\\Migrations\\20240417070820_initialOrder.cs",

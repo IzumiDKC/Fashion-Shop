@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1Hdp9BkGQVavqz9RkdNkdr47ui3JKtQG6LwaT8LscZ4=",
+  "Hash": "/kpaVPImNeVVQu57hYvrsXAbri8UpR18iQBNk45YY0U=",
   "Source": "FashionShop",
   "BasePath": "_content/FashionShop",
   "Mode": "Default",
@@ -1649,25 +1649,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bn2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\wwwroot\\images\\Clanchat_Emoji_105_En.png",
-      "SourceId": "FashionShop",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\wwwroot\\",
-      "BasePath": "_content/FashionShop",
-      "RelativePath": "images/Clanchat_Emoji_105_En.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Clanchat_Emoji_105_En.png"
     },
     {
       "Identity": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\wwwroot\\images\\duy.jpg",

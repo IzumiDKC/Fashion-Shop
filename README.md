@@ -20,9 +20,13 @@ Nhập vào:
 
 Kiểm tra thư mục `Migrations` sẽ có các file như [ảnh](https://imgur.com/a/TsuOC72/)
 
-Kiểm tra `database trong Sql Server` xem đã có chưa
+Kiểm tra `database trong Sql Server` đã tạo thành công chưa
 
-Nếu đã có tiến hành run (nếu không hiện nút run thì do chưa chọn `Solution "FashionShop"` bên phải
+Tiến hành thêm database vào:
+
+Vào `Database` -> `Chuột phải` vào `"FashionShopDemo"` -> New Query thêm file tại [đây](https://drive.google.com/file/d/1cxm5gHTMt8IwklsG0W4-iCqXR_QAep8V/view) vào -> `Execute`
+
+Tiến hành run project (nếu không hiện nút run thì do chưa chọn `Solution "FashionShop"` bên phải
 
 Kiểm tra dịch vụ API hoạt động chưa: 
 

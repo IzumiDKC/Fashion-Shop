@@ -1,4 +1,4 @@
-### Project Full Stack by Điền Nguyễn
+### Projecj Đồ Án Cơ Sở
 
 Hướng dẫn sinh database:
 

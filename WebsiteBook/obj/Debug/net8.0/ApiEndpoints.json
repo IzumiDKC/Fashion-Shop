@@ -260,6 +260,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FashionShopDemo.Controllers.OrdersApiController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Orders/create-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FashionShopDemo.Controllers.CreateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopDemo.Controllers.OrdersApiController",
+    "Method": "GetUserOrders",
+    "RelativePath": "api/Orders/user-orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProductsController",
     "Method": "GetProducts",
     "RelativePath": "api/products",

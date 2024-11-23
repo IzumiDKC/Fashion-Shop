@@ -13,15 +13,12 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configuration
 var configuration = builder.Configuration;
 
-// Cấu hình xác thực (Google, Cookie và JWT)
 if (string.IsNullOrEmpty(builder.Configuration["Jwt:Key"]))
 {
-    // Tạo khóa ngẫu nhiên
     var jwtKey = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
-    builder.Configuration["Jwt:Key"] = jwtKey;  // Lưu lại vào cấu hình
+    builder.Configuration["Jwt:Key"] = jwtKey;  // Lưu cấu hình
 }
 builder.Services.AddAuthentication(options =>
 {
@@ -92,17 +89,14 @@ builder.Services.AddSingleton<PayOSPaymentService>();
 builder.Services.Configure<MoMoConfig>(configuration.GetSection("Momo"));
 builder.Services.AddTransient<MoMoPaymentService>();
 
-// Đăng ký DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-// Cấu hình Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddDefaultTokenProviders()
     .AddDefaultUI()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// Cấu hình đường dẫn cho cookie đăng nhập
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Identity/Account/Login";
@@ -110,13 +104,11 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.AccessDeniedPath = "/Identity/Account/AccessDenied";
 });
 
-// Đăng ký các dịch vụ cần thiết cho MVC, Session và API
 builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
 builder.Services.AddControllers();
 
-// CORS policy
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", builder =>
@@ -130,7 +122,6 @@ builder.Services.AddCors(options =>
 // Swagger
 builder.Services.AddSwaggerGen();
 
-// Đăng ký các repository
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
 builder.Services.AddScoped<IBrandRepository, EFBrandRepository>();
@@ -138,7 +129,6 @@ builder.Services.AddScoped<MoMoPaymentService>();
 
 var app = builder.Build();
 
-// Configure middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

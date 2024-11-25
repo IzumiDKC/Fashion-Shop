@@ -46,16 +46,18 @@ namespace FashionShopDemo.Controllers
                 order.TotalPrice,
                 order.ShippingAddress,
                 order.Status,
+                order.Notes, // Ghi chú của đơn hàng
                 OrderDetails = order.OrderDetails.Select(od => new
                 {
                     od.Product.Name,
-                    od.Product.Price,
+                    OriginalPrice = od.Price, // Giá tại thời điểm đặt
+                    FinalPrice = od.FinalPrice, // Giá cuối cùng (cập nhật nếu có)
                     od.Quantity
                 })
             }));
         }
 
-        // API tạo đơn hàng mới
+
         [HttpPost("create-order")]
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderRequest request)
         {
@@ -77,10 +79,10 @@ namespace FashionShopDemo.Controllers
                 OrderDate = DateTime.Now,
                 ShippingAddress = request.ShippingAddress,
                 TotalPrice = request.TotalPrice,
-                Status = "Đang xử lý" // Trạng thái mặc định khi tạo đơn
+                Status = "Đang xử lý", // Trạng thái mặc định khi tạo đơn
+                Notes = request.Notes // Lưu ghi chú
             };
 
-            // Thêm đơn hàng vào cơ sở dữ liệu
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
 
@@ -98,7 +100,7 @@ namespace FashionShopDemo.Controllers
                     OrderId = order.Id,
                     ProductId = orderDetailRequest.ProductId,
                     Quantity = orderDetailRequest.Quantity,
-                    Price = product.Price // Giá sản phẩm tại thời điểm đặt hàng
+                    Price = product.FinalPrice // Lưu giá hiện tại của sản phẩm
                 };
 
                 _context.OrderDetails.Add(orderDetail);
@@ -110,11 +112,13 @@ namespace FashionShopDemo.Controllers
         }
     }
 
-    // Định nghĩa lớp yêu cầu tạo đơn hàng (CreateOrderRequest)
-    public class CreateOrderRequest
+        // Định nghĩa lớp yêu cầu tạo đơn hàng (CreateOrderRequest)
+        public class CreateOrderRequest
     {
         public string ShippingAddress { get; set; }
         public decimal TotalPrice { get; set; }
+        public string? Notes { get; set; } // Thêm ghi chú
+
         public List<OrderDetailRequest> OrderDetails { get; set; }
     }
 

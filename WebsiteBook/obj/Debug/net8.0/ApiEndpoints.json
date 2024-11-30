@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "FashionShop.Controllers.AccountController",
+    "Method": "GetProfile",
+    "RelativePath": "api/account/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShop.Controllers.AccountController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/account/update-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FashionShop.Controllers.UpdateProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AuthController",
     "Method": "Login",
     "RelativePath": "api/auth/login",
@@ -262,7 +288,7 @@
   {
     "ContainingType": "FashionShopDemo.Controllers.OrdersApiController",
     "Method": "CreateOrder",
-    "RelativePath": "api/Orders/create-order",
+    "RelativePath": "api/Orders/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

@@ -58,7 +58,7 @@ namespace FashionShopDemo.Controllers
         }
 
 
-        [HttpPost("create-order")]
+        [HttpPost("create")]
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderRequest request)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);

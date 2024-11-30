@@ -10,5 +10,6 @@ namespace FashionShopDemo.Models
         public string? Address { get; set; }
         public string? Age { get; set; }
 
+
     }
 }

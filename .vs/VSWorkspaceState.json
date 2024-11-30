@@ -11,8 +11,9 @@
     "\\WebsiteBook\\Repositories",
     "\\WebsiteBook\\Views",
     "\\WebsiteBook\\Views\\Home",
+    "\\WebsiteBook\\Views\\Orders",
     "\\WebsiteBook\\wwwroot"
   ],
-  "SelectedNode": "\\FashionShop.sln",
+  "SelectedNode": "\\WebsiteBook\\Views\\Orders\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

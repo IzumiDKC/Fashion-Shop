@@ -1,4 +1,4 @@
-### Projecj Đồ Án Cơ Sở
+### Projeck Đồ Án Cơ Sở
 
 Hướng dẫn sinh database:
 

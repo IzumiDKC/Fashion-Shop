@@ -53,7 +53,10 @@ public class AuthController : ControllerBase
             var user = await _userManager.FindByNameAsync(model.Username);
             var token = GenerateJwtToken(user);
 
-            return Ok(new { Token = token });
+            return Ok(new {
+                Token = token ,
+                UserId = user.Id,              
+                });
         }
         return Unauthorized("Đăng nhập không thành công");
     }

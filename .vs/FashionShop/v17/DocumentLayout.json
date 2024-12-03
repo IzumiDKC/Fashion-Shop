@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -173,10 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\repo\\fashion-shop\\websitebook\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -670,7 +670,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -694,13 +694,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\AccountController.cs",
               "RelativeToolTip": "WebsiteBook\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowC4AAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwD4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T16:55:34.368Z",
               "EditorCaption": ""
@@ -708,32 +708,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebsiteBook\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:53:45.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserOrders.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
-              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
-              "RelativeToolTip": "WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T15:52:02.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "OrdersApiController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\OrdersApiController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\OrdersApiController.cs",
@@ -741,12 +715,11 @@
               "RelativeToolTip": "WebsiteBook\\Controllers\\OrdersApiController.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAgwDwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T08:19:25.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T08:19:25.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\CategoriesController.cs",
@@ -758,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Order.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\Order.cs",
@@ -766,18 +739,17 @@
               "RelativeToolTip": "WebsiteBook\\Models\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T08:14:07.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T08:14:07.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "WebsiteBook\\Models\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T07:19:26.341Z",
               "EditorCaption": ""
@@ -785,6 +757,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebsiteBook\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:30:32.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebsiteBook\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAkwGAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:53:45.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
+              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
+              "RelativeToolTip": "WebsiteBook\\Views\\Orders\\UserOrders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T15:52:02.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ValuesController.cs",
@@ -792,12 +800,11 @@
               "RelativeToolTip": "WebsiteBook\\Controllers\\ValuesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T16:54:47.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T16:54:47.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\OrderDetail.cs",
@@ -805,12 +812,11 @@
               "RelativeToolTip": "WebsiteBook\\Models\\OrderDetail.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAA1wBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T08:14:31.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T08:14:31.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\Orders\\Index.cshtml",
@@ -818,12 +824,11 @@
               "RelativeToolTip": "WebsiteBook\\Views\\Orders\\Index.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAABsAAACbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T08:59:46.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T08:59:46.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BrandApiController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\BrandApiController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\BrandApiController.cs",
@@ -835,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Extensions\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Extensions\\SessionExtensions.cs",
@@ -847,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\ShoppingCart.cs",
@@ -855,12 +860,11 @@
               "RelativeToolTip": "WebsiteBook\\Models\\ShoppingCart.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAgwAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:09:33.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T09:09:33.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\OrdersController.cs",
@@ -872,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProductApiController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ProductApiController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ProductApiController.cs",
@@ -884,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\PaymentController.cs",
@@ -896,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ShoppingCartController.cs",
@@ -908,7 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\ProductController.cs",
@@ -920,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -932,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Product.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\Product.cs",
@@ -944,7 +948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "EFCategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Repositories\\EFCategoryRepository.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Repositories\\EFCategoryRepository.cs",
@@ -956,7 +960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -968,7 +972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Repositories\\ICategoryRepository.cs",
@@ -980,7 +984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\BrandController.cs",
@@ -992,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CategoriesApiController.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Controllers\\CategoriesApiController.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Controllers\\CategoriesApiController.cs",
@@ -1004,7 +1008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\appsettings.json",
               "RelativeDocumentMoniker": "WebsiteBook\\appsettings.json",
@@ -1016,7 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "20240430062310_InitialOrder.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Migrations\\20240430062310_InitialOrder.cs",
@@ -1028,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Program.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Program.cs",
@@ -1040,7 +1044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "20240430062343_StatusOrder.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Migrations\\20240430062343_StatusOrder.cs",
@@ -1052,7 +1056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "20240530172336_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Migrations\\20240530172336_Initial.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Migrations\\20240530172336_Initial.cs",
@@ -1064,7 +1068,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "20240430062303_ExtendIdentityUser.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Migrations\\20240430062303_ExtendIdentityUser.cs",
@@ -1076,7 +1080,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "20240430062255_ExtendIdentity.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Migrations\\20240430062255_ExtendIdentity.cs",
@@ -1088,7 +1092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Register.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Register.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\Register.cs",
@@ -1100,7 +1104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\_ViewImports.cshtml",
@@ -1112,7 +1116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Login.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\Login.cs",
@@ -1124,7 +1128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\Home\\Index.cshtml",
@@ -1136,7 +1140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\_ViewStart.cshtml",
@@ -1148,7 +1152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\Category.cs",
@@ -1160,7 +1164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Models\\ErrorViewModel.cs",
@@ -1172,7 +1176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebsiteBook\\Views\\Shared\\_Layout.cshtml",
@@ -1184,7 +1188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "IBrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Repositories\\IBrandRepository.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Repositories\\IBrandRepository.cs",
@@ -1196,7 +1200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "EFBrandRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Repositories\\EFBrandRepository.cs",
               "RelativeDocumentMoniker": "WebsiteBook\\Repositories\\EFBrandRepository.cs",
@@ -1208,7 +1212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebsiteBook\\appsettings.Development.json",
@@ -1217,18 +1221,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-18T12:18:29.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "WebsiteBook\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "WebsiteBook\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T18:30:32.6Z"
             },
             {
               "$type": "Document",

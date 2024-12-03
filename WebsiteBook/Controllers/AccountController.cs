@@ -1,7 +1,9 @@
 ﻿using FashionShopDemo.Models;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace FashionShop.Controllers
 {
@@ -16,10 +18,11 @@ namespace FashionShop.Controllers
             _userManager = userManager;
         }
 
-        [HttpPut("update-profile")]
-        public async Task<IActionResult> UpdateProfile([FromBody] UpdateProfileRequest request)
+        // API cập nhật thông tin người dùng theo ID
+        [HttpPut("update-profile/{id}")]
+        public async Task<IActionResult> UpdateProfile(string id, [FromBody] UpdateProfileRequest request)
         {
-            var user = await _userManager.GetUserAsync(User);
+            var user = await _userManager.FindByIdAsync(id);
             if (user == null)
             {
                 return NotFound("User not found.");
@@ -32,20 +35,19 @@ namespace FashionShop.Controllers
             user.Address = request.Address;
             user.PhoneNumber = request.PhoneNumber;
 
-
             var result = await _userManager.UpdateAsync(user);
             if (!result.Succeeded)
             {
-                return BadRequest(result.Errors);
+                return BadRequest(new { Errors = result.Errors.Select(e => e.Description) });
             }
 
-            return Ok(user); 
+            return Ok(new { Message = "Profile updated successfully." });
         }
 
-        [HttpGet("profile")]
-        public async Task<IActionResult> GetProfile()
+        [HttpGet("profile/{id}")]
+        public async Task<IActionResult> GetProfile(string id)
         {
-            var user = await _userManager.GetUserAsync(User);
+            var user = await _userManager.FindByIdAsync(id);
             if (user == null)
             {
                 return NotFound("User not found.");
@@ -57,32 +59,32 @@ namespace FashionShop.Controllers
                 Email = user.Email,
                 FullName = user.FullName,
                 Age = user.Age,
-                Address = user.Address, 
-                PhoneNumber = user.PhoneNumber 
+                Address = user.Address,
+                PhoneNumber = user.PhoneNumber
             };
 
-            return Ok(userProfile); 
+            return Ok(userProfile);
+        }
+
+
+        public class UpdateProfileRequest
+        {
+            public string UserName { get; set; }
+            public string Email { get; set; }
+            public string FullName { get; set; }
+            public string? Age { get; set; }
+            public string Address { get; set; }
+            public string PhoneNumber { get; set; }
+        }
+
+        public class UserProfile
+        {
+            public string UserName { get; set; }
+            public string Email { get; set; }
+            public string FullName { get; set; }
+            public string? Age { get; set; }
+            public string Address { get; set; }
+            public string PhoneNumber { get; set; }
         }
     }
-
-    public class UpdateProfileRequest
-    {
-        public string UserName { get; set; }
-        public string Email { get; set; }
-        public string FullName { get; set; }
-        public string? Age { get; set; }
-        public string Address { get; set; }
-        public string PhoneNumber { get; set; }
-    }
-
-    public class UserProfile
-    {
-        public string UserName { get; set; }
-        public string Email { get; set; }
-        public string FullName { get; set; }
-        public string? Age { get; set; } 
-        public string Address { get; set; } 
-        public string PhoneNumber { get; set; } 
-    }
-
 }

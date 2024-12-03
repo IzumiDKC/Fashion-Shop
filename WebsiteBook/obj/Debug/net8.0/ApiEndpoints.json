@@ -2,24 +2,35 @@
   {
     "ContainingType": "FashionShop.Controllers.AccountController",
     "Method": "GetProfile",
-    "RelativePath": "api/account/profile",
+    "RelativePath": "api/account/profile/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "FashionShop.Controllers.AccountController",
     "Method": "UpdateProfile",
-    "RelativePath": "api/account/update-profile",
+    "RelativePath": "api/account/update-profile/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
         "Name": "request",
-        "Type": "FashionShop.Controllers.UpdateProfileRequest",
+        "Type": "FashionShop.Controllers.AccountController\u002BUpdateProfileRequest",
         "IsRequired": true
       }
     ],

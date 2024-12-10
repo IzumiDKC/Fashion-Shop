@@ -8,7 +8,7 @@ namespace FashionShopDemo.Controllers
 {
     [Route("api/Orders")]
     [ApiController]
-    [Authorize]
+    
     public class OrdersApiController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -18,14 +18,12 @@ namespace FashionShopDemo.Controllers
             _context = context;
         }
 
-        // API lấy danh sách đơn hàng của người dùng
-        [HttpGet("user-orders")]
-        public async Task<IActionResult> GetUserOrders()
+        [HttpGet("user-orders/{userId}")]
+        public async Task<IActionResult> GetUserOrders(string userId)
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (string.IsNullOrEmpty(userId))
             {
-                return Unauthorized("Không tìm thấy thông tin người dùng.");
+                return BadRequest("UserId không hợp lệ.");
             }
 
             var orders = await _context.Orders
@@ -46,16 +44,17 @@ namespace FashionShopDemo.Controllers
                 order.TotalPrice,
                 order.ShippingAddress,
                 order.Status,
-                order.Notes, // Ghi chú của đơn hàng
+                order.Notes,
                 OrderDetails = order.OrderDetails.Select(od => new
                 {
                     od.Product.Name,
-                    OriginalPrice = od.Price, // Giá tại thời điểm đặt
-                    FinalPrice = od.FinalPrice, // Giá cuối cùng (cập nhật nếu có)
+                    OriginalPrice = od.Price,
+                    FinalPrice = od.FinalPrice,
                     od.Quantity
                 })
             }));
         }
+
 
 
         [HttpPost("create")]
@@ -72,21 +71,19 @@ namespace FashionShopDemo.Controllers
                 return BadRequest("Đơn hàng phải có ít nhất một sản phẩm.");
             }
 
-            // Tạo đơn hàng mới
             var order = new Order
             {
                 UserId = userId,
                 OrderDate = DateTime.Now,
                 ShippingAddress = request.ShippingAddress,
                 TotalPrice = request.TotalPrice,
-                Status = "Đang xử lý", // Trạng thái mặc định khi tạo đơn
-                Notes = request.Notes // Lưu ghi chú
+                Status = "Đang xử lý",
+                Notes = request.Notes
             };
 
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
 
-            // Tạo chi tiết đơn hàng (OrderDetails)
             foreach (var orderDetailRequest in request.OrderDetails)
             {
                 var product = await _context.Products.FindAsync(orderDetailRequest.ProductId);
@@ -100,7 +97,7 @@ namespace FashionShopDemo.Controllers
                     OrderId = order.Id,
                     ProductId = orderDetailRequest.ProductId,
                     Quantity = orderDetailRequest.Quantity,
-                    Price = product.FinalPrice // Lưu giá hiện tại của sản phẩm
+                    Price = product.FinalPrice
                 };
 
                 _context.OrderDetails.Add(orderDetail);
@@ -110,19 +107,18 @@ namespace FashionShopDemo.Controllers
 
             return CreatedAtAction(nameof(GetUserOrders), new { id = order.Id }, order);
         }
+
     }
 
-        // Định nghĩa lớp yêu cầu tạo đơn hàng (CreateOrderRequest)
-        public class CreateOrderRequest
+    public class CreateOrderRequest
     {
         public string ShippingAddress { get; set; }
         public decimal TotalPrice { get; set; }
-        public string? Notes { get; set; } // Thêm ghi chú
+        public string? Notes { get; set; } 
 
         public List<OrderDetailRequest> OrderDetails { get; set; }
     }
 
-    // Định nghĩa lớp chi tiết sản phẩm trong đơn hàng
     public class OrderDetailRequest
     {
         public int ProductId { get; set; }

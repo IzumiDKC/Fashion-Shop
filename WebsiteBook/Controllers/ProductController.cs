@@ -190,5 +190,17 @@ namespace FashionShopDemo.Controllers
             await _productRepository.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
+        [HttpGet("onsale")]
+        public async Task<ActionResult<List<Product>>> GetProductsOnSale()
+        {
+            var productsOnSale = await _productRepository.GetProductsOnSaleAsync();
+
+            if (productsOnSale == null || !productsOnSale.Any())
+            {
+                return NotFound("Không có sản phẩm giảm giá.");
+            }
+
+            return Ok(productsOnSale);
+        }
     }
 }

@@ -10,6 +10,7 @@ namespace FashionShopDemo.Repositories
         Task UpdateAsync(Product product);
         Task DeleteAsync(int id);
         Task FilterProductsAsync(string brandId, string categoryId);
+        Task<List<Product>> GetProductsOnSaleAsync();
 
     }
 }

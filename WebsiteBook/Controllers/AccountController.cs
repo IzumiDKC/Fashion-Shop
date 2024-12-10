@@ -9,6 +9,8 @@ namespace FashionShop.Controllers
 {
     [Route("api/account")]
     [ApiController]
+    [Authorize]
+
     public class AccountController : ControllerBase
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -18,8 +20,8 @@ namespace FashionShop.Controllers
             _userManager = userManager;
         }
 
-        // API cập nhật thông tin người dùng theo ID
         [HttpPut("update-profile/{id}")]
+
         public async Task<IActionResult> UpdateProfile(string id, [FromBody] UpdateProfileRequest request)
         {
             var user = await _userManager.FindByIdAsync(id);

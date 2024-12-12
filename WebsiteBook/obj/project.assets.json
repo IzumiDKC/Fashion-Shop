@@ -817,6 +817,39 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.1.1",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.4": {
         "type": "package",
         "dependencies": {
@@ -4233,6 +4266,25 @@
           }
         }
       },
+      "VNPAY.NET/8.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.1.1"
+        },
+        "compile": {
+          "lib/net8.0/VNPAY.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/VNPAY.NET.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net8.0/Icon.ico": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Vonage/7.4.0": {
         "type": "package",
         "dependencies": {
@@ -5322,6 +5374,32 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.1.1": {
+      "sha512": "kQUEVOU4loc8CPSb2WoHFTESqwIa8Ik7ysCBfTwzHAd0moWovc9JQLmhDIHlYLjHbyexqZAlkq/FPRUZqokebw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.1.1": {
+      "sha512": "VklZ7hWgSvHBcDtwYYkdMdI/adlf7ebxTZ9kdzAhX+gUs5jSHE9mZlTamdgf9miSsxc1QjNazHXTDJdVPZKKTw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.4": {
@@ -12331,6 +12409,21 @@
         "testableio.system.io.abstractions.wrappers.nuspec"
       ]
     },
+    "VNPAY.NET/8.1.0": {
+      "sha512": "jezOzUipd7PjssnymNZcQP6U/LuIvPaqwRuQYwg7xmPeS9dHajI01aJ0GAEVp0OEEOVZoTEDEjx6XvKvlNMQqA==",
+      "type": "package",
+      "path": "vnpay.net/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "content/Icon.ico",
+        "contentFiles/any/net8.0/Icon.ico",
+        "lib/net8.0/VNPAY.NET.dll",
+        "vnpay.net.8.1.0.nupkg.sha512",
+        "vnpay.net.nuspec"
+      ]
+    },
     "Vonage/7.4.0": {
       "sha512": "UBuK5ovXdNhdB0W1LqAUJm9q0GDBLtVs9eeGTtQksurE/Upa+kFJC3WzQasjozX4R5Zj3olK3qVmZFpwfg/GNQ==",
       "type": "package",
@@ -12377,6 +12470,7 @@
       "RestSharp >= 111.2.0",
       "Swashbuckle.AspNetCore >= 6.9.0",
       "System.Net.Http >= 4.3.4",
+      "VNPAY.NET >= 8.1.0",
       "Vonage >= 7.4.0"
     ]
   },
@@ -12489,6 +12583,10 @@
           "System.Net.Http": {
             "target": "Package",
             "version": "[4.3.4, )"
+          },
+          "VNPAY.NET": {
+            "target": "Package",
+            "version": "[8.1.0, )"
           },
           "Vonage": {
             "target": "Package",

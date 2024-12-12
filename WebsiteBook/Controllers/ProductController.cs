@@ -91,7 +91,6 @@ namespace FashionShopDemo.Controllers
             }
             return View(product);
         }
-        // Hiển thị form cập nhật sản phẩm
         public async Task<IActionResult> Update(int id)
         {
             if (!User.IsInRole("Admin") && !User.IsInRole("Manager"))
@@ -110,7 +109,7 @@ namespace FashionShopDemo.Controllers
             ViewBag.Brands = new SelectList(brands, "Id", "Name");
             return View(product);
         }
-        // Xử lý cập nhật sản phẩm
+
         [HttpPost]
         public async Task<IActionResult> Update(int id, Product product, IFormFile imageUrl)
 
@@ -135,7 +134,6 @@ namespace FashionShopDemo.Controllers
                 }
                 else
                 {
-                    // Lưu hình ảnh mới
                     product.ImageUrl = await SaveImage(imageUrl);
                 }
                 existingProduct.Name = product.Name;
@@ -169,7 +167,7 @@ namespace FashionShopDemo.Controllers
             var brands = await _brandRepository.GetAllAsync();
             ViewBag.Brands = new SelectList(brands, "Id", "Name"); return View(product);
         }
-        // Hiển thị form xác nhận xóa sản phẩm
+        
         public async Task<IActionResult> Delete(int id)
         {
             if (!User.IsInRole("Admin"))
@@ -183,7 +181,7 @@ namespace FashionShopDemo.Controllers
             }
             return View(product);
         }
-        // Xử lý xóa sản phẩm
+
         [HttpPost, ActionName("DeleteConfirmed")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -201,6 +199,18 @@ namespace FashionShopDemo.Controllers
             }
 
             return Ok(productsOnSale);
+        }
+        [HttpGet("hot-products")]
+        public async Task<ActionResult<List<Product>>> GetHotProducts()
+        {
+            var hotProducts = await _productRepository.GetHotProductsAsync();
+
+            if (hotProducts == null || !hotProducts.Any())
+            {
+                return NotFound("Không có sản phẩm hot.");
+            }
+
+            return Ok(hotProducts);
         }
     }
 }

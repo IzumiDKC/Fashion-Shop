@@ -58,9 +58,14 @@ namespace FashionShopDemo.Repositories
         }
         public async Task<List<Product>> GetProductsOnSaleAsync()
         {
-            // Truy vấn sản phẩm có PromotionPrice lớn hơn 0
             return await _context.Products
                 .Where(p => p.PromotionPrice > 0)
+                .ToListAsync();
+        }
+        public async Task<List<Product>> GetHotProductsAsync()
+        {
+            return await _context.Products
+                .Where(p => p.IsHot)
                 .ToListAsync();
         }
     }

@@ -111,6 +111,10 @@
               "target": "Package",
               "version": "[4.3.4, )"
             },
+            "VNPAY.NET": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Vonage": {
               "target": "Package",
               "version": "[7.4.0, )"

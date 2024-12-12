@@ -622,3 +622,4 @@ C:\Users\Dien\Desktop\repo\Fashion-Shop\WebsiteBook\bin\Debug\net8.0\Swashbuckle
 C:\Users\Dien\Desktop\repo\Fashion-Shop\WebsiteBook\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Dien\Desktop\repo\Fashion-Shop\WebsiteBook\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\Dien\Desktop\repo\Fashion-Shop\WebsiteBook\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Dien\Desktop\repo\Fashion-Shop\WebsiteBook\bin\Debug\net8.0\VNPAY.NET.dll

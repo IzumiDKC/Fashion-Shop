@@ -1,4 +1,5 @@
 ﻿using FashionShopDemo.Models;
+using System;
 
 namespace FashionShopDemo.Repositories
 {
@@ -11,6 +12,7 @@ namespace FashionShopDemo.Repositories
         Task DeleteAsync(int id);
         Task FilterProductsAsync(string brandId, string categoryId);
         Task<List<Product>> GetProductsOnSaleAsync();
+        Task<List<Product>> GetHotProductsAsync();
 
     }
 }

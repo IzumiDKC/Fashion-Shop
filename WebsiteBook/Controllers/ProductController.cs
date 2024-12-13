@@ -49,7 +49,7 @@ namespace FashionShopDemo.Controllers
             ViewBag.Categories = new SelectList(categories, "Id", "Name");
 
             var brands = await _brandRepository.GetAllAsync();
-            ViewBag.Brands = new SelectList(brands, "Id", "Name"); 
+            ViewBag.Brands = new SelectList(brands, "Id", "Name");
             return View();
         }
         [HttpPost]
@@ -73,7 +73,7 @@ namespace FashionShopDemo.Controllers
         }
         private async Task<string> SaveImage(IFormFile image)
         {
-            var savePath = Path.Combine("wwwroot/images", image.FileName); 
+            var savePath = Path.Combine("wwwroot/images", image.FileName);
 
             using (var fileStream = new FileStream(savePath, FileMode.Create))
             {
@@ -167,7 +167,7 @@ namespace FashionShopDemo.Controllers
             var brands = await _brandRepository.GetAllAsync();
             ViewBag.Brands = new SelectList(brands, "Id", "Name"); return View(product);
         }
-        
+
         public async Task<IActionResult> Delete(int id)
         {
             if (!User.IsInRole("Admin"))
@@ -212,5 +212,48 @@ namespace FashionShopDemo.Controllers
 
             return Ok(hotProducts);
         }
+        [HttpGet("hot-products-time-remaining")]
+        public async Task<ActionResult<List<Product>>> GetTimeRemainingForHotProducts()
+        {
+            var hotProducts = await _productRepository.GetHotProductsAsync();
+
+            if (hotProducts == null || !hotProducts.Any())
+            {
+                return NotFound("Không có sản phẩm hot.");
+            }
+
+            // Lọc các sản phẩm có thời gian còn lại > 0
+            var filteredProducts = hotProducts.Where(p =>
+                p.HotEndDate.HasValue && (p.HotEndDate.Value - DateTime.UtcNow).TotalSeconds > 0
+            ).ToList();
+
+            if (!filteredProducts.Any())
+            {
+                return NotFound("Tất cả các sản phẩm hot đã hết thời gian.");
+            }
+
+            return Ok(filteredProducts);
+        }
+
+        private string CalculateTimeRemaining(DateTime? hotEndDate)
+        {
+            if (!hotEndDate.HasValue)
+            {
+                return string.Empty;
+            }
+
+            var timeRemaining = hotEndDate.Value - DateTime.UtcNow;
+            if (timeRemaining.TotalSeconds <= 0)
+            {
+                return "Thời gian sale đã kết thúc";
+            }
+
+            var days = Math.Floor(timeRemaining.TotalDays);
+            var hours = Math.Floor(timeRemaining.TotalHours % 24);
+            var minutes = Math.Floor(timeRemaining.TotalMinutes % 60);
+            var seconds = Math.Floor(timeRemaining.TotalSeconds % 60);
+
+            return $"{days}d {hours}h {minutes}m {seconds}s";
+        }
+        }
     }
-}

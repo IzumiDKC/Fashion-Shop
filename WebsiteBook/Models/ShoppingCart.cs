@@ -18,7 +18,6 @@ namespace FashionShopDemo.Models
                 Items.Add(item);
             }
         }
-
         public void RemoveItem(int productId)
         {
             Items.RemoveAll(i => i.ProductId == productId);

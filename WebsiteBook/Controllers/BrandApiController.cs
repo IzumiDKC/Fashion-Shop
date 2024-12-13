@@ -15,7 +15,6 @@ public class BrandsController : ControllerBase
         _brandRepository = brandRepository;
     }
 
-    // GET: api/brands
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Brand>>> GetBrands()
     {
@@ -23,7 +22,6 @@ public class BrandsController : ControllerBase
         return Ok(brands);
     }
 
-    // GET: api/brands/5
     [HttpGet("{id}")]
     public async Task<ActionResult<Brand>> GetBrand(int id)
     {
@@ -35,7 +33,6 @@ public class BrandsController : ControllerBase
         return brand;
     }
 
-    // POST: api/brands
     [HttpPost]
     public async Task<ActionResult<Brand>> PostBrand(Brand brand)
     {
@@ -43,12 +40,10 @@ public class BrandsController : ControllerBase
         {
             return BadRequest(ModelState);
         }
-
         await _brandRepository.AddAsync(brand);
         return CreatedAtAction(nameof(GetBrand), new { id = brand.Id }, brand);
     }
 
-    // PUT: api/brands/5
     [HttpPut("{id}")]
     public async Task<IActionResult> PutBrand(int id, Brand brand)
     {
@@ -56,12 +51,10 @@ public class BrandsController : ControllerBase
         {
             return BadRequest();
         }
-
         await _brandRepository.UpdateAsync(brand);
         return NoContent();
     }
 
-    // DELETE: api/brands/5
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteBrand(int id)
     {
@@ -70,7 +63,6 @@ public class BrandsController : ControllerBase
         {
             return NotFound();
         }
-
         await _brandRepository.DeleteAsync(id);
         return NoContent();
     }

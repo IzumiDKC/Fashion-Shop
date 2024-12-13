@@ -54,7 +54,6 @@ namespace FashionShopDemo.Controllers
             return View(brand);
         }
         
-
         public async Task<IActionResult> Update(int id)
         {
             if (!User.IsInRole("Admin") && !User.IsInRole("Manager"))

@@ -217,7 +217,6 @@ namespace FashionShopDemo.Controllers
             return Ok();
         }
 
-        // Action xác nhận đơn hàng bởi Admin
         public async Task<IActionResult> ConfirmOrder(int orderId)
         {
             var order = await _context.Orders.FindAsync(orderId);
@@ -226,7 +225,6 @@ namespace FashionShopDemo.Controllers
                 return NotFound();
             }
 
-            // Logic xác nhận đơn hàng
             order.Status = "Confirmed";
             _context.Orders.Update(order);
             await _context.SaveChangesAsync();

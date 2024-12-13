@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/kpaVPImNeVVQu57hYvrsXAbri8UpR18iQBNk45YY0U=",
+  "Hash": "ZOokl2uFCQdaQbrwtbg9cS5W4RaBTToqO/025hQC4WI=",
   "Source": "FashionShop",
   "BasePath": "_content/FashionShop",
   "Mode": "Default",
@@ -1383,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\wwwroot\\images\\3a019904eab05f3a8b6371b37dae07f5.jpg_720x720q80-removebg-preview.png",
+      "SourceId": "FashionShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\wwwroot\\",
+      "BasePath": "_content/FashionShop",
+      "RelativePath": "images/3a019904eab05f3a8b6371b37dae07f5.jpg_720x720q80-removebg-preview.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3a019904eab05f3a8b6371b37dae07f5.jpg_720x720q80-removebg-preview.png"
     },
     {
       "Identity": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\wwwroot\\images\\429782640_122153285102071299_7672271598253255948_n.jpg",

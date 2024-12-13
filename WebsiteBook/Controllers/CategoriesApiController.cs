@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-[Route("api/categories")] // Đặt đường dẫn là api/categories
+[Route("api/categories")]
 [ApiController]
-public class CategoriesController : ControllerBase // Đổi tên thành CategoriesController
+public class CategoriesController : ControllerBase 
 {
     private readonly ICategoryRepository _categoryRepository;
 
@@ -15,7 +15,6 @@ public class CategoriesController : ControllerBase // Đổi tên thành Categor
         _categoryRepository = categoryRepository;
     }
 
-    // GET: api/categories
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
     {
@@ -23,7 +22,6 @@ public class CategoriesController : ControllerBase // Đổi tên thành Categor
         return Ok(categories);
     }
 
-    // GET: api/categories/5
     [HttpGet("{id}")]
     public async Task<ActionResult<Category>> GetCategory(int id)
     {
@@ -35,7 +33,6 @@ public class CategoriesController : ControllerBase // Đổi tên thành Categor
         return category;
     }
 
-    // POST: api/categories
     [HttpPost]
     public async Task<ActionResult<Category>> PostCategory(Category category)
     {
@@ -48,7 +45,6 @@ public class CategoriesController : ControllerBase // Đổi tên thành Categor
         return CreatedAtAction(nameof(GetCategory), new { id = category.Id }, category);
     }
 
-    // PUT: api/categories/5
     [HttpPut("{id}")]
     public async Task<IActionResult> PutCategory(int id, Category category)
     {
@@ -61,7 +57,6 @@ public class CategoriesController : ControllerBase // Đổi tên thành Categor
         return NoContent();
     }
 
-    // DELETE: api/categories/5
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteCategory(int id)
     {

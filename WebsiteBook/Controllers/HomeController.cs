@@ -63,14 +63,13 @@ namespace FashionShopDemo.Controllers
                 return BadRequest("Query không hợp lệ.");
             }
 
-            // Tìm kiếm các sản phẩm trong cơ sở dữ liệu dựa trên query
             var products = await _context.Products
-                .Where(p => EF.Functions.Like(p.Name, $"%{query}%")) // Sử dụng hàm Like để tìm kiếm tên sản phẩm chứa query
-                .Select(p => new { Name = p.Name }) // Chỉ chọn tên sản phẩm để trả về
-                .Take(10) // Giới hạn số lượng gợi ý trả về
+                .Where(p => EF.Functions.Like(p.Name, $"%{query}%")) 
+                .Select(p => new { Name = p.Name }) 
+                .Take(10) 
                 .ToListAsync();
 
-            return Json(products); // Trả về kết quả dưới dạng JSON
+            return Json(products); 
         }
         public IActionResult SearchResult(int categoryId)
         {

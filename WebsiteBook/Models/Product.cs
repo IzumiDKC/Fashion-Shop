@@ -47,6 +47,27 @@ namespace FashionShopDemo.Models
         public DateTime? UpdatedDate { get; set; } = DateTime.Now;
         public int? ProductCommentId { get; set; }
         public ProductComment? ProductComment { get; set; }
+        public string TimeRemaining
+        {
+            get
+            {
+                if (HotEndDate.HasValue)
+                {
+                    var timeRemaining = HotEndDate.Value - DateTime.UtcNow;
+                    if (timeRemaining.TotalSeconds <= 0)
+                    {
+                        return "Thời gian sale đã kết thúc";
+                    }
 
+                    var days = Math.Floor(timeRemaining.TotalDays);
+                    var hours = Math.Floor(timeRemaining.TotalHours % 24);
+                    var minutes = Math.Floor(timeRemaining.TotalMinutes % 60);
+                    var seconds = Math.Floor(timeRemaining.TotalSeconds % 60);
+
+                    return $"{days}d {hours}h {minutes}m {seconds}s";
+                }
+                return string.Empty;
+            }
+        }
     }
 }

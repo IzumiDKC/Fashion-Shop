@@ -15,18 +15,15 @@ public class ProductsController : ControllerBase
         _context = context;
     }
 
-    // GET: api/products
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
     {
         return await _context.Products.ToListAsync();
     }
 
-    // GET: api/products/5
     [HttpGet("{id}")]
     public async Task<ActionResult<Product>> GetProduct(int id)
     {
-        // Tìm sản phẩm theo ID
         var product = await _context.Products.FindAsync(id);
 
         if (product == null)
@@ -37,18 +34,15 @@ public class ProductsController : ControllerBase
         return product;
     }
 
-    // POST: api/products
     [HttpPost]
     public async Task<ActionResult<Product>> PostProduct(Product product)
     {
-        // Thêm sản phẩm mới
         _context.Products.Add(product);
         await _context.SaveChangesAsync();
 
         return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
     }
 
-    // PUT: api/products/5
     [HttpPut("{id}")]
     public async Task<IActionResult> PutProduct(int id, Product product)
     {
@@ -74,11 +68,9 @@ public class ProductsController : ControllerBase
                 throw;
             }
         }
-
         return NoContent();
     }
 
-    // DELETE: api/products/5
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduct(int id)
     {
@@ -87,17 +79,12 @@ public class ProductsController : ControllerBase
         {
             return NotFound();
         }
-
         _context.Products.Remove(product);
         await _context.SaveChangesAsync();
-
         return NoContent();
     }
-
     private bool ProductExists(int id)
     {
         return _context.Products.Any(e => e.Id == id);
     }
-
-
 }

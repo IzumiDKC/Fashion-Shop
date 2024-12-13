@@ -55,8 +55,6 @@ namespace FashionShopDemo.Controllers
             }));
         }
 
-
-
         [HttpPost("create")]
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderRequest request)
         {
@@ -70,7 +68,6 @@ namespace FashionShopDemo.Controllers
             {
                 return BadRequest("Đơn hàng phải có ít nhất một sản phẩm.");
             }
-
             var order = new Order
             {
                 UserId = userId,
@@ -80,10 +77,8 @@ namespace FashionShopDemo.Controllers
                 Status = "Đang xử lý",
                 Notes = request.Notes
             };
-
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
-
             foreach (var orderDetailRequest in request.OrderDetails)
             {
                 var product = await _context.Products.FindAsync(orderDetailRequest.ProductId);
@@ -91,7 +86,6 @@ namespace FashionShopDemo.Controllers
                 {
                     return NotFound($"Sản phẩm với ID {orderDetailRequest.ProductId} không tồn tại.");
                 }
-
                 var orderDetail = new OrderDetail
                 {
                     OrderId = order.Id,
@@ -102,12 +96,9 @@ namespace FashionShopDemo.Controllers
 
                 _context.OrderDetails.Add(orderDetail);
             }
-
             await _context.SaveChangesAsync();
-
             return CreatedAtAction(nameof(GetUserOrders), new { id = order.Id }, order);
         }
-
     }
 
     public class CreateOrderRequest

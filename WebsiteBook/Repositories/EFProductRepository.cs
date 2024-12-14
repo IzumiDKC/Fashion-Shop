@@ -68,5 +68,14 @@ namespace FashionShopDemo.Repositories
                 .Where(p => p.IsHot)
                 .ToListAsync();
         }
+        public async Task<IEnumerable<Product>> GetProductsByBrandNameAsync(string brandName)
+        {
+            return await _context.Products
+                .Include(p => p.Brand)
+                .Where(p => p.Brand.Name == brandName)
+                .ToListAsync();
+        }
+
+
     }
 }

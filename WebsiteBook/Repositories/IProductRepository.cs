@@ -13,6 +13,7 @@ namespace FashionShopDemo.Repositories
         Task FilterProductsAsync(string brandId, string categoryId);
         Task<List<Product>> GetProductsOnSaleAsync();
         Task<List<Product>> GetHotProductsAsync();
+        Task<IEnumerable<Product>> GetProductsByBrandNameAsync(string brandName);
 
     }
 }

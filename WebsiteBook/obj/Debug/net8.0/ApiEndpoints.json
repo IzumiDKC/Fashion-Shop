@@ -439,6 +439,16 @@
   },
   {
     "ContainingType": "FashionShopDemo.Controllers.ProductController",
+    "Method": "GetProductsByBrandNoel",
+    "RelativePath": "christmas-collection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FashionShopDemo.Controllers.ProductController",
     "Method": "GetHotProducts",
     "RelativePath": "hot-products",
     "HttpMethod": "GET",

@@ -222,7 +222,7 @@ namespace FashionShopDemo.Controllers
                 return NotFound("Không có sản phẩm hot.");
             }
 
-            // Lọc các sản phẩm có thời gian còn lại > 0
+            // Lọc các sản phẩm có thời gian > 0
             var filteredProducts = hotProducts.Where(p =>
                 p.HotEndDate.HasValue && (p.HotEndDate.Value - DateTime.UtcNow).TotalSeconds > 0
             ).ToList();
@@ -255,5 +255,19 @@ namespace FashionShopDemo.Controllers
 
             return $"{days}d {hours}h {minutes}m {seconds}s";
         }
+        [HttpGet("christmas-collection")]
+        public async Task<IActionResult> GetProductsByBrandNoel()
+        {
+            var products = await _productRepository.GetProductsByBrandNameAsync("Noel");
+
+            if (products == null || !products.Any())
+            {
+                return NotFound("Không có sản phẩm của thương hiệu Noel.");
+            }
+
+            return Ok(products);
         }
+
     }
+
+}

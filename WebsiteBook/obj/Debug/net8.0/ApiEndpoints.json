@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "FashionShopDemo.Controllers.ProductController",
+    "Method": "GetAccessories",
+    "RelativePath": "accessories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FashionShop.Controllers.AccountController",
     "Method": "GetProfile",
     "RelativePath": "api/account/profile/{id}",

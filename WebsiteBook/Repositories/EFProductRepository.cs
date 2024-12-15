@@ -76,6 +76,14 @@ namespace FashionShopDemo.Repositories
                 .ToListAsync();
         }
 
+        public async Task<IEnumerable<Product>> GetProductsByCategoryNamesAsync(List<string> categoryNames)
+        {
+            return await _context.Products
+                .Include(p => p.Category)
+                .Where(p => categoryNames.Contains(p.Category.Name))
+                .ToListAsync();
+        }
+
 
     }
 }

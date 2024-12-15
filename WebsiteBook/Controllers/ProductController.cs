@@ -267,6 +267,20 @@ namespace FashionShopDemo.Controllers
 
             return Ok(products);
         }
+        [HttpGet("accessories")]
+        public async Task<IActionResult> GetAccessories()
+        {
+            var categoryNames = new List<string> { "Tất", "Cà vạt", "Kẹp cà vạt", "Phụ kiện" };
+            var accessories = await _productRepository.GetProductsByCategoryNamesAsync(categoryNames);
+
+            if (accessories == null || !accessories.Any())
+            {
+                return NotFound("Không có sản phẩm nào thuộc các danh mục này.");
+            }
+
+            return Ok(accessories);
+        }
+
 
     }
 

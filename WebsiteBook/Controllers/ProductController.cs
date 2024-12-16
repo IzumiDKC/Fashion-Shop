@@ -281,6 +281,19 @@ namespace FashionShopDemo.Controllers
             return Ok(accessories);
         }
 
+        [HttpGet("new-arrival")]
+        public async Task<ActionResult<List<Product>>> GetLatestProducts()
+        {
+            var latestProducts = await _productRepository.GetLatestProductsAsync(10);
+
+            if (latestProducts == null || !latestProducts.Any())
+            {
+                return NotFound("Không có sản phẩm nào.");
+            }
+
+            return Ok(latestProducts);
+        }
+
 
     }
 

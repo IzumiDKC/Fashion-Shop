@@ -14,6 +14,6 @@ namespace FashionShopDemo.Areas.Identity.Helper
         public string HostEmail => _configuration["EmailSettings:Host"];
         public int PortEmail => int.Parse(_configuration["EmailSettings:Port"]);
         public string EmailSender => _configuration["EmailSettings:Sender"];
-        public string PasswordSender => _configuration["EmailSettings:Password"]; // Hoặc lấy từ Secret Manager
+        public string PasswordSender => _configuration["EmailSettings:Password"];
     }
 }

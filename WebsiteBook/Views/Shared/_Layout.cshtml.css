@@ -10,9 +10,9 @@ a.navbar-brand {
 }
 
 .navbar-collapse {
-    border-radius: 5px; /* Bo tròn góc */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
-    padding: 10px; /* Khoảng cách giữa các phần tử bên trong */
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
 }
 
 a {
@@ -48,19 +48,15 @@ button.accept-policy {
 }
 
 .btn-cart {
-    /* Tùy chỉnh kích thước và khoảng cách */
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.25rem;
-    /* Tùy chỉnh màu chữ */
     color: #343a40;
-    /* Hiệu ứng hover */
     transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 }
 
     .btn-cart:hover {
-        /* Tùy chỉnh màu nền và màu chữ khi hover */
         background-color: #f8f9fa;
         color: #212529;
     }

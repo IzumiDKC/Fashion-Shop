@@ -58,7 +58,6 @@ public class PaymentController : Controller
     [HttpGet]
     public IActionResult PaymentResult(string partnerCode, string orderId, string requestId, string amount, string orderInfo, string orderType, string transId, int resultCode, string message, string payType, long responseTime, string extraData, string signature)
     {
-        // Kiểm tra chữ ký
         string secretKey = _configuration["MoMo:SecretKey"];
         string rawHash = $"partnerCode={partnerCode}&orderId={orderId}&requestId={requestId}&amount={amount}&orderInfo={orderInfo}&orderType={orderType}&transId={transId}&resultCode={resultCode}&message={message}&payType={payType}&responseTime={responseTime}&extraData={extraData}";
         string mySignature = SignSHA256(rawHash, secretKey);
@@ -67,7 +66,6 @@ public class PaymentController : Controller
         {
             if (resultCode == 0)
             {
-                // Thanh toán thành công, cập nhật trạng thái đơn hàng
                 ViewBag.Message = "Thanh toán thành công!";
             }
             else

@@ -84,6 +84,13 @@ namespace FashionShopDemo.Repositories
                 .ToListAsync();
         }
 
+        public async Task<List<Product>> GetLatestProductsAsync(int count)
+        {
+            return await _context.Products
+                .OrderByDescending(p => p.Id) // Giả sử Id tăng dần theo thời gian thêm sản phẩm
+                .Take(count)
+                .ToListAsync();
+        }
 
     }
 }

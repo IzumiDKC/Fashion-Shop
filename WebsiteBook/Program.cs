@@ -10,15 +10,28 @@ using System.Text;
 using FashionShopDemo.Areas.Identity.Helper;
 using FashionShopDemo.Payment.Momo.Config;
 using Microsoft.OpenApi.Models;
+using System.IdentityModel.Tokens.Jwt;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var configuration = builder.Configuration;
+/*========================================= */
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()  
+
+              .AllowAnyMethod() 
+              .AllowAnyHeader();
+    });
+});
+/*========================================= */
 
 if (string.IsNullOrEmpty(builder.Configuration["Jwt:Key"]))
 {
     var jwtKey = Convert.ToBase64String(Guid.NewGuid().ToByteArray());
-    builder.Configuration["Jwt:Key"] = jwtKey;  // Lưu cấu hình
+    builder.Configuration["Jwt:Key"] = jwtKey;  
 }
 builder.Services.AddAuthentication(options =>
 {
@@ -45,6 +58,11 @@ builder.Services.AddAuthentication(options =>
         };
     });
 
+
+
+
+
+
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
@@ -55,7 +73,7 @@ builder.Services.AddSession(options =>
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Fashion Shop API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Fashion Shop API", Version = "v1.1" });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
@@ -117,6 +135,12 @@ builder.Services.AddCors(options =>
     });
 });
 
+
+
+
+
+
+
 // Swagger
 builder.Services.AddSwaggerGen();
 
@@ -142,6 +166,53 @@ app.UseCors("AllowAll");
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.Use(async (context, next) =>
+{
+    if (context.Request.Headers.ContainsKey("Authorization"))
+    {
+        var authHeader = context.Request.Headers["Authorization"].ToString();
+        Console.WriteLine($"Authorization header received: {authHeader}");
+
+        // Lấy token từ Authorization header (loại bỏ "Bearer ")
+        var token = authHeader.Replace("Bearer ", string.Empty);
+
+        try
+        {
+            // Giải mã token bằng JwtSecurityTokenHandler
+            var handler = new JwtSecurityTokenHandler();
+            var jsonToken = handler.ReadToken(token) as JwtSecurityToken;
+
+            if (jsonToken != null)
+            {
+                context.Items["JsonToken"] = jsonToken;
+                var userClaims = jsonToken.Claims;
+
+                Console.WriteLine("Claims received from the token:");
+                foreach (var claim in userClaims)
+                {
+                    Console.WriteLine($"Claim Type: {claim.Type}, Claim Value: {claim.Value}");
+                }
+                var userId = userClaims.FirstOrDefault(c => c.Type == "userId")?.Value;
+                Console.WriteLine($"User ID: {userId}");
+            }
+            else
+            {
+                Console.WriteLine("Token could not be decoded.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error decoding token: {ex.Message}");
+        }
+    }
+    else
+    {
+        Console.WriteLine("No Authorization header found.");
+    }
+
+    await next.Invoke();
+});
 
 app.UseSwagger();
 app.UseSwaggerUI(c =>

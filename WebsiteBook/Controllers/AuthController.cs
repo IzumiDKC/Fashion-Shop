@@ -72,29 +72,38 @@ public class AuthController : ControllerBase
     private string GenerateJwtToken(ApplicationUser user)
     {
         
-        var key = new byte[32]; 
+        /*var key = new byte[32]; 
         using (var rng = new System.Security.Cryptography.RNGCryptoServiceProvider())
         {
             rng.GetBytes(key);
-        }
+        }*/
 
         var claims = new[]
         {
-        new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
-        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-        new Claim(ClaimTypes.NameIdentifier, user.Id)
-    };
+            /*new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
+            new Claim(JwtRegisteredClaimNames.NameId, user.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),*/
+            new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new Claim("userId", user.Id.ToString()),
+            new Claim("name", user.UserName.ToString())
+
+        };
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+        var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         // Tạo khóa SymmetricSecurityKey với độ dài 256 bit
-        var symmetricKey = new SymmetricSecurityKey(key);
-        var creds = new SigningCredentials(symmetricKey, SecurityAlgorithms.HmacSha256);
+        //var symmetricKey = new SymmetricSecurityKey(key);
+        //var creds = new SigningCredentials(symmetricKey, SecurityAlgorithms.HmacSha256);
 
         var token = new JwtSecurityToken(
-            issuer: _configuration["Jwt:Issuer"],
-            audience: _configuration["Jwt:Audience"],
-            claims: claims,
-            expires: DateTime.Now.AddMinutes(30),
-            signingCredentials: creds
+             _configuration["Jwt:Issuer"],
+             _configuration["Jwt:Audience"],
+             claims: claims,
+             expires: DateTime.Now.AddMinutes(30),
+             signingCredentials: signIn
+
         );
 
         return new JwtSecurityTokenHandler().WriteToken(token);

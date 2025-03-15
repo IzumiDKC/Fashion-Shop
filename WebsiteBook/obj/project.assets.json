@@ -12486,11 +12486,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\FashionShop.csproj",
+      "projectUniqueName": "C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\WebsiteBook\\FashionShop.csproj",
       "projectName": "FashionShop",
-      "projectPath": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\FashionShop.csproj",
+      "projectPath": "C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\WebsiteBook\\FashionShop.csproj",
       "packagesPath": "C:\\Users\\Dien\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dien\\Desktop\\repo\\Fashion-Shop\\WebsiteBook\\obj\\",
+      "outputPath": "C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\WebsiteBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dien\\AppData\\Roaming\\NuGet\\NuGet.Config",

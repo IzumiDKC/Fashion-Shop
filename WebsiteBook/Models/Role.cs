@@ -1,4 +1,4 @@
-﻿namespace FashionShopDemo.Models
+﻿    namespace FashionShopDemo.Models
 {
     public static class Role
     {

@@ -107,14 +107,8 @@ namespace FashionShopDemo.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Rank")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("TotalSpent")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
@@ -167,7 +161,12 @@ namespace FashionShopDemo.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<int?>("ParentId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
 
                     b.ToTable("Categories");
                 });
@@ -469,6 +468,15 @@ namespace FashionShopDemo.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("FashionShopDemo.Models.Category", b =>
+                {
+                    b.HasOne("FashionShopDemo.Models.Category", "Parent")
+                        .WithMany("SubCategories")
+                        .HasForeignKey("ParentId");
+
+                    b.Navigation("Parent");
+                });
+
             modelBuilder.Entity("FashionShopDemo.Models.Images", b =>
                 {
                     b.HasOne("FashionShopDemo.Models.Product", null)
@@ -509,13 +517,13 @@ namespace FashionShopDemo.Migrations
             modelBuilder.Entity("FashionShopDemo.Models.Product", b =>
                 {
                     b.HasOne("FashionShopDemo.Models.Brand", "Brand")
-                        .WithMany("Products")
+                        .WithMany()
                         .HasForeignKey("BrandId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("FashionShopDemo.Models.Category", "Category")
-                        .WithMany("Products")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -587,14 +595,9 @@ namespace FashionShopDemo.Migrations
                     b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("FashionShopDemo.Models.Brand", b =>
-                {
-                    b.Navigation("Products");
-                });
-
             modelBuilder.Entity("FashionShopDemo.Models.Category", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("SubCategories");
                 });
 
             modelBuilder.Entity("FashionShopDemo.Models.Order", b =>

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<FashionShopDemo.Models.Category>
+
+@{
+    ViewData["Title"] = "Danh Mục Cây";
+}
+
+<h1 class="text-center">Danh Mục Sản Phẩm</h1>
+
+<ul class="list-group">
+    @foreach (var category in Model)
+    {
+        <li class="list-group-item">
+            <strong>@category.Name</strong>
+            @if (category.SubCategories != null && category.SubCategories.Any())
+            {
+                <ul class="list-group">
+                    @foreach (var subCategory in category.SubCategories)
+                    {
+                        <li class="list-group-item">@subCategory.Name</li>
+                    }
+                </ul>
+            }
+        </li>
+    }
+</ul>

@@ -1,27 +1,36 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using FashionShopDemo.Models;
 using FashionShopDemo.Repositories;
+using System.Linq;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace FashionShopDemo.Controllers
 {
     public class CategoriesController : Controller
     {
-        private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
-        private readonly ApplicationDbContext _context;
 
-        public CategoriesController(IProductRepository productRepository, ICategoryRepository categoryRepository)
+        public CategoriesController(ICategoryRepository categoryRepository)
         {
-            _productRepository = productRepository;
             _categoryRepository = categoryRepository;
         }
+        public async Task<IActionResult> TreeView()
+        {
+            var categories = await _categoryRepository.GetCategoryTreeAsync();
+            return Json(categories); // Trả về JSON thay vì View
+        }
+
         public async Task<IActionResult> Index()
         {
-            var category = await _categoryRepository.GetAllAsync();
-            return View(category);
+            var categories = await _categoryRepository.GetAllAsync();
+
+            var parentCategories = categories.Where(c => c.ParentId == null).ToList();
+
+            return View(parentCategories);
         }
+
         public async Task<IActionResult> Display(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
@@ -31,38 +40,60 @@ namespace FashionShopDemo.Controllers
             }
             return View(category);
         }
-        public IActionResult Add()
+
+        public async Task<IActionResult> Add()
         {
-            if (!User.IsInRole("Admin") && !User.IsInRole("Manager"))
-            {
-                return RedirectToAction("AccessDenied", "Home");
-            }
+            var categories = await _categoryRepository.GetAllAsync();
+            ViewBag.Categories = categories.Where(c => c.ParentId == null).ToList();
             return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> Add(Category category)
         {
-            if (ModelState.IsValid)
+            // Kiểm tra dữ liệu từ form
+            Console.WriteLine($"ParentId nhận được: {(category.ParentId.HasValue ? category.ParentId.Value.ToString() : "NULL")}");
+
+
+            if (!ModelState.IsValid)
             {
-                _categoryRepository.AddAsync(category);
-                return RedirectToAction(nameof(Index));
+                Console.WriteLine("❌ ModelState không hợp lệ!");
+                foreach (var error in ModelState)
+                {
+                    foreach (var subError in error.Value.Errors)
+                    {
+                        Console.WriteLine($"Lỗi: {subError.ErrorMessage}");
+                    }
+                }
+
+                var categories = await _categoryRepository.GetAllAsync();
+                ViewBag.Categories = categories.Where(c => c.ParentId == null).ToList();
+                return View(category);
             }
-            return View(category);
+
+            // Lưu dữ liệu vào database
+            await _categoryRepository.AddAsync(category);
+            return RedirectToAction(nameof(Index));
         }
+
+
+
+
+
+
+
+
+
         public async Task<IActionResult> Update(int id)
         {
-           /* if (!User.IsInRole("Admin") && !User.IsInRole("Manager"))
-            {
-                return RedirectToAction("AccessDenied", "Home");
-            } */
             var category = await _categoryRepository.GetByIdAsync(id);
-
             if (category == null)
             {
-                return RedirectToAction("NotFound", "Categories");
+                return NotFound();
             }
             return View(category);
         }
+
         [HttpPost]
         public async Task<IActionResult> Update(int id, Category category)
         {
@@ -72,11 +103,12 @@ namespace FashionShopDemo.Controllers
             }
             if (ModelState.IsValid)
             {
-                _categoryRepository.UpdateAsync(category);
+                await _categoryRepository.UpdateAsync(category);
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
         }
+
         public async Task<IActionResult> Delete(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
@@ -86,24 +118,12 @@ namespace FashionShopDemo.Controllers
             }
             return View(category);
         }
+
         [HttpPost, ActionName("DeleteConfirmed")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var category = await _categoryRepository.GetByIdAsync(id);
-            if (category != null)
-            {
-                _categoryRepository.DeleteAsync(id);
-            }
+            await _categoryRepository.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
-        }
-        public IActionResult Search(int categoryId)
-        {
-            var searchResults = _context.Products.Where(p => p.CategoryId == categoryId).ToList();
-            return View("SearchResult", searchResults);
-        }
-        public IActionResult NotFound()
-        {
-            return View();
         }
     }
 }

@@ -6,18 +6,28 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
     <h2 class="text-center"><strong>Thêm Loại Quần Áo</strong></h2>
-    <form asp-action="Add" method="post" enctype="multipart/form-data" class="container mt-4">
-        <div class="form-group container2">
-            <label asp-for="Name">Nhập thể loại mới:</label>
-            <input asp-for="Name" class="form-control" placeholder="Ví dụ: Váy" />
-            <span asp-validation-for="Name" class="text-danger"></span>
-        </div>
-        <div class="text-center mt-4">
-            <a class="btn btn-lg btn-secondary mr-2" href="javascript:history.go(-1)">Trở Về</a>
-            <button type="submit" class="btn btn-lg btn-primary">Thêm</button>
-        </div>
-    </form>
-
+<form asp-action="Add" method="post" enctype="multipart/form-data" class="container mt-4">
+    <div class="form-group container2">
+        <label asp-for="Name">Nhập thể loại mới:</label>
+        <input asp-for="Name" class="form-control" placeholder="Ví dụ: Váy" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group container2">
+        <label asp-for="ParentId">Chọn danh mục cha (nếu có):</label>
+        <select asp-for="ParentId" class="form-control">
+            <option value="">-- Không có danh mục cha --</option>
+            @foreach (var category in ViewBag.Categories as List<FashionShopDemo.Models.Category>)
+            {
+                <option value="@category.Id">@category.Name</option>
+            }
+        </select>
+        <span asp-validation-for="ParentId" class="text-danger"></span>
+    </div>
+    <div class="text-center mt-4">
+        <a class="btn btn-lg btn-secondary mr-2" href="javascript:history.go(-1)">Trở Về</a>
+        <button type="submit" class="btn btn-lg btn-primary">Thêm</button>
+    </div>
+</form>
 <style>
     body {
         font-family: 'Roboto', sans-serif;

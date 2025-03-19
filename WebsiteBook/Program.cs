@@ -156,6 +156,25 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
+app.Use(async (context, next) =>
+{
+    try
+    {
+        await next();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Lỗi xảy ra trong Middleware: {ex.Message}");
+    }
+
+    if (context.Response.StatusCode == 404)
+    {
+        Console.WriteLine("Lỗi 404: Chuyển hướng đến /Home/ErrorPage");
+        context.Response.Redirect("/Home/ErrorPage");
+    }
+});
+
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

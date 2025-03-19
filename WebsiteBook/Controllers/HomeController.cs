@@ -139,5 +139,12 @@ namespace FashionShopDemo.Controllers
         {
             return View();
         }
+        public IActionResult ErrorPage()
+        {
+            Console.WriteLine("✅ Đã gọi đến trang ErrorPage!");
+            return View("ErrorPage");
+        }
+
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lNv35BnLDWR3yN+Ur7+DAbUGpA2gBSOXZrkMOPCNb1U=",
+  "Hash": "MEqkARgu4LWRfiN2TSUN5gjW7euYmAv4YleBCpDHfR8=",
   "Source": "FashionShop",
   "BasePath": "_content/FashionShop",
   "Mode": "Default",
@@ -1611,6 +1611,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hoang.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\WebsiteBook\\wwwroot\\images\\image.png",
+      "SourceId": "FashionShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\WebsiteBook\\wwwroot\\",
+      "BasePath": "_content/FashionShop",
+      "RelativePath": "images/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image.png"
     },
     {
       "Identity": "C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\WebsiteBook\\wwwroot\\images\\loginlogo.png",

@@ -16,6 +16,7 @@ namespace FashionShopDemo.Repositories
         Task<IEnumerable<Product>> GetProductsByBrandNameAsync(string brandName);
         Task<IEnumerable<Product>> GetProductsByCategoryNamesAsync(List<string> categoryNames);
         Task<List<Product>> GetLatestProductsAsync(int count);
+        Task<List<Product>> GetProductsByCategoryAsync(int categoryId);
 
     }
 }

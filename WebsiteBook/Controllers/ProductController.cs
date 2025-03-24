@@ -294,6 +294,13 @@ namespace FashionShopDemo.Controllers
             return Ok(latestProducts);
         }
 
+        [HttpGet("GetProductsByCategory/{categoryId}")]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProductsByCategory(int categoryId)
+        {
+            var products = await _productRepository.GetProductsByCategoryAsync(categoryId);
+            return Ok(products);
+        }
+
 
     }
 

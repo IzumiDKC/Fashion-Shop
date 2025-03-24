@@ -13,7 +13,7 @@ namespace FashionShopDemo.Models
         [Required, StringLength(50)]
         public string Name { get; set; }
 
-        public int? ParentId { get; set; } // ID của danh mục cha (nullable)
+        public int? ParentId { get; set; }
             
         [ForeignKey("ParentId")] [JsonIgnore]
         [ValidateNever]

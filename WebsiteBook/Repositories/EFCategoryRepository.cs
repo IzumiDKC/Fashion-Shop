@@ -1,11 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using FashionShopDemo.Models;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace FashionShopDemo.Repositories
 {
     public class EFCategoryRepository : ICategoryRepository
     {
         private readonly ApplicationDbContext _context;
+
         public EFCategoryRepository(ApplicationDbContext context)
         {
             _context = context;
@@ -29,16 +33,12 @@ namespace FashionShopDemo.Repositories
 
         public async Task<IEnumerable<Category>> GetAllAsync()
         {
-            return await _context.Categories
-                .Include(c => c.SubCategories) // danh mục con
-                .ToListAsync();
+            return await _context.Categories.ToListAsync();
         }
 
         public async Task<Category> GetByIdAsync(int id)
         {
-            return await _context.Categories
-                .Include(c => c.SubCategories) // danh mục con
-                .FirstOrDefaultAsync(c => c.Id == id);
+            return await _context.Categories.FindAsync(id);
         }
 
         public async Task UpdateAsync(Category category)
@@ -46,13 +46,13 @@ namespace FashionShopDemo.Repositories
             _context.Categories.Update(category);
             await _context.SaveChangesAsync();
         }
+
         public async Task<List<Category>> GetCategoryTreeAsync()
         {
             var categories = await _context.Categories.ToListAsync();
-            return categories
-                .Where(c => c.ParentId == null) //  danh mục gốc
-                .Select(c => BuildCategoryTree(c, categories)) // cây danh mục
-                .ToList();
+            return categories.Where(c => c.ParentId == null)
+                             .Select(c => BuildCategoryTree(c, categories))
+                             .ToList();
         }
 
         private Category BuildCategoryTree(Category category, List<Category> allCategories)
@@ -63,6 +63,5 @@ namespace FashionShopDemo.Repositories
                 .ToList();
             return category;
         }
-
     }
 }

@@ -92,5 +92,12 @@ namespace FashionShopDemo.Repositories
                 .ToListAsync();
         }
 
+        public async Task<List<Product>> GetProductsByCategoryAsync(int categoryId)
+        {
+            return await _context.Products
+                .Where(p => p.CategoryId == categoryId)
+                .ToListAsync();
+        }
+
     }
 }

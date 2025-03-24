@@ -19,7 +19,7 @@ namespace FashionShopDemo.Controllers
         public async Task<IActionResult> TreeView()
         {
             var categories = await _categoryRepository.GetCategoryTreeAsync();
-            return Json(categories); // Trả về JSON thay vì View
+            return View(categories); // Trả về JSON thay vì View
         }
 
         public async Task<IActionResult> Index()
@@ -76,14 +76,6 @@ namespace FashionShopDemo.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
-
-
-
-
-
-
-
         public async Task<IActionResult> Update(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
@@ -109,7 +101,7 @@ namespace FashionShopDemo.Controllers
             return View(category);
         }
 
-        public async Task<IActionResult> Delete(int id)
+      /*  public async Task<IActionResult> Delete(int id)
         {
             var category = await _categoryRepository.GetByIdAsync(id);
             if (category == null)
@@ -117,13 +109,70 @@ namespace FashionShopDemo.Controllers
                 return NotFound();
             }
             return View(category);
-        }
+        }*/
 
         [HttpPost, ActionName("DeleteConfirmed")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _categoryRepository.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
+        }
+
+
+        public async Task<IActionResult> GetCategoryTree()
+        {
+            var categories = await _categoryRepository.GetCategoryTreeAsync();
+
+            Console.WriteLine("📌 Categories JSON:");
+            foreach (var c in categories)
+            {
+                Console.WriteLine($"ID: {c.Id}, ParentID: {(c.ParentId.HasValue ? c.ParentId.Value.ToString() : "NULL")}, Name: {c.Name}");
+            }
+
+            var treeData = categories.Select(c => new
+            {
+                id = c.Id.ToString(),
+                parent = c.ParentId.HasValue ? c.ParentId.ToString() : "#",
+                text = c.Name
+            }).ToList();
+
+            return Json(treeData);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Add(string Name, int? ParentId)
+        {
+            var category = new Category { Name = Name, ParentId = ParentId };
+            await _categoryRepository.AddAsync(category);
+            return Ok();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(int id, string Name)
+        {
+            var category = await _categoryRepository.GetByIdAsync(id);
+            if (category == null) return NotFound();
+
+            category.Name = Name;
+            await _categoryRepository.UpdateAsync(category);
+            return Ok();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _categoryRepository.DeleteAsync(id);
+            return Ok();
+        }
+        private object ConvertToJsTreeNode(Category category)
+        {
+            return new
+            {
+                id = category.Id.ToString(),
+                parent = category.ParentId?.ToString() ?? "#", // Root có parent là "#"
+                text = category.Name
+            };
         }
     }
 }

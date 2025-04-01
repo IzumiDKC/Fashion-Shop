@@ -1,0 +1,189 @@
+﻿@model List<FashionShopDemo.Models.Category>
+
+@{
+    ViewData["Title"] = "TreeView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Import JsTree & jQuery -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/themes/default/style.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/jstree.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<style>
+    #dropZone {
+        width: 100%;
+        min-height: 150px;
+        border: 2px dashed #007bff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #f8f9fa;
+    }
+</style>
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">TreeView Danh Mục Động</h1>
+
+    <!-- Cây danh mục -->
+    <div id="categoryTree"></div>
+
+    <!-- Nút thêm danh mục -->
+    <button id="addCategoryBtn" class="btn btn-success mt-3">➕ Thêm danh mục</button>
+
+    <!-- Khu vực kéo thả -->
+    <div id="dropZone">
+        <h3>Danh mục đã chọn</h3>
+    </div>
+
+    <!-- Danh sách sản phẩm -->
+    <h2 class="mt-4">Danh Sách Sản Phẩm</h2>
+    <ul id="productList" class="list-group"></ul>
+</div>
+
+<script>
+    $.noConflict();
+    jQuery(document).ready(function ($) {
+        var categoryData = @Html.Raw(Json.Serialize(Model));
+        var selectedCategories = new Set();
+        var tree;
+
+        function buildTree(categories) {
+            var treeData = categories.map(category => ({
+                id: category.id.toString(),
+                parent: category.parentId ? category.parentId.toString() : "#",
+                text: category.name || "Không có tên",
+                state: { "opened": false }
+            }));
+
+            // ✅ Thêm node "🔥 Sản Phẩm Hot"
+            treeData.push({
+                id: "hot-products",
+                parent: "#",
+                text: "🔥 Sản Phẩm Hot",
+                icon: "fas fa-fire"
+            });
+
+            return treeData;
+        }
+
+        // ✅ Khởi tạo JsTree với thêm/sửa/xóa
+        $('#categoryTree').jstree({
+            'core': {
+                'data': buildTree(categoryData),
+                "check_callback": true
+            },
+            "plugins": ["checkbox", "wholerow", "contextmenu"],
+            "contextmenu": {
+                "items": function ($node) {
+                    return {
+                        "rename": {
+                            "label": "✏️ Đổi tên",
+                            "action": function (obj) {
+                                $('#categoryTree').jstree("edit", $node);
+                            }
+                        },
+                        "delete": {
+                            "label": "🗑️ Xóa",
+                            "action": function () {
+                                deleteCategory($node.id);
+                            }
+                        }
+                    };
+                }
+            }
+        });
+
+        tree = $("#categoryTree").jstree(true);
+
+        // ✅ Khi thay đổi checkbox
+        $('#categoryTree').on("changed.jstree", function (e, data) {
+            selectedCategories.clear();
+            data.selected.forEach(id => selectedCategories.add(id));
+            fetchProducts();
+        });
+
+        // ✅ Thêm danh mục
+        $("#addCategoryBtn").click(function () {
+            var newNode = tree.create_node("#", { "text": "🆕 Danh mục mới", "id": "new-" + Date.now() });
+            tree.edit(newNode);
+
+            // ✅ Gửi API để lưu vào database
+            $.ajax({
+                url: "/api/trees/addCategory",
+                method: "POST",
+                data: JSON.stringify({ name: "Danh mục mới", parentId: null }),
+                contentType: "application/json",
+                success: function (res) {
+                    tree.set_id(newNode, res.id);
+                }
+            });
+        });
+
+        // ✅ Xóa danh mục
+        function deleteCategory(categoryId) {
+            if (!confirm("Bạn có chắc muốn xóa danh mục này?")) return;
+
+            $.ajax({
+                url: `/api/trees/deleteCategory/${categoryId}`,
+                method: "DELETE",
+                success: function () {
+                    tree.delete_node(categoryId);
+                },
+                error: function () {
+                    alert("Lỗi khi xóa danh mục.");
+                }
+            });
+        }
+
+        // ✅ Lấy sản phẩm từ danh mục đã chọn
+        function fetchProducts() {
+            $("#productList").empty();
+            if (selectedCategories.size === 0) return;
+
+            let allProducts = [];
+            let requests = [];
+
+            selectedCategories.forEach(categoryId => {
+                let request;
+                if (categoryId === "hot-products") {
+                    request = $.ajax({ url: "/api/trees/hot-products", method: "GET" });
+                } else {
+                    request = $.ajax({ url: `/api/trees/GetProductsByCategory/${categoryId}`, method: "GET" });
+                }
+
+                requests.push(request);
+                request.done(function (products) {
+                    allProducts = allProducts.concat(products);
+                });
+            });
+
+            $.when.apply($, requests).done(function () {
+                displayProducts(allProducts);
+            }).fail(function () {
+                $("#productList").append("<li class='list-group-item text-danger'>Lỗi khi tải sản phẩm.</li>");
+            });
+        }
+
+        // ✅ Hiển thị danh sách sản phẩm
+        function displayProducts(products) {
+            var productList = $("#productList");
+            productList.empty();
+
+            if (products.length === 0) {
+                productList.append('<li class="list-group-item text-muted">Không có sản phẩm.</li>');
+            } else {
+                products.forEach(product => {
+                    productList.append(`
+                            <li class="list-group-item">
+                                <input type="checkbox" checked disabled>
+                                <img src="${product.imageUrl || 'https://via.placeholder.com/50'}" class="img-thumbnail" width="50">
+                                <strong>${product.name}</strong> - ${product.price}.000 VNĐ
+                            </li>
+                        `);
+                });
+            }
+        }
+    });
+</script>

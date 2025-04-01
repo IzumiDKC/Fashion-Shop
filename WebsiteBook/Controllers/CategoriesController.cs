@@ -19,7 +19,7 @@ namespace FashionShopDemo.Controllers
         public async Task<IActionResult> TreeView()
         {
             var categories = await _categoryRepository.GetCategoryTreeAsync();
-            return View(categories); // Trả về JSON thay vì View
+            return View(categories);
         }
 
         public async Task<IActionResult> Index()

@@ -12,7 +12,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
 <style>
-    /* CSS cho vùng kéo thả */
     #dropZone {
         width: 100%;
         min-height: 150px;
@@ -39,6 +38,7 @@
 
     <!-- Cây danh mục -->
     <div id="categoryTree"></div>
+
     <button id="reloadTree" class="btn btn-primary mt-3">Làm Mới Cây</button>
 
     <!-- Vùng kéo thả -->
@@ -55,7 +55,7 @@
     $.noConflict();
     jQuery(document).ready(function ($) {
         var categoryData = @Html.Raw(Json.Serialize(Model));
-        var droppedCategories = {}; // Danh sách danh mục đã kéo
+        var selectedCategories = new Set(); // Lưu danh mục được chọn
 
         function buildTree(categories) {
             return categories.map(category => ({
@@ -65,7 +65,7 @@
             }));
         }
 
-        // Khởi tạo JsTree
+        // Khởi tạo JsTree với checkbox
         $('#categoryTree').jstree({
             'core': {
                 'data': function (node, cb) {
@@ -73,29 +73,22 @@
                 },
                 "check_callback": true
             },
-            "plugins": ["dnd", "wholerow", "search", "state"]
-        }).on("loaded.jstree", function () {
-            console.log("JsTree đã tải xong");
-            refreshDraggable();
+            "plugins": ["checkbox", "dnd", "wholerow", "search", "state"]
         });
 
-        // Làm mới draggable khi cây JsTree thay đổi
-        function refreshDraggable() {
-            $("#categoryTree li").each(function () {
-                var $this = $(this);
-                if (!$this.data("ui-draggable")) { // Kiểm tra nếu chưa có draggable
-                    $this.draggable({
-                        helper: "clone",
-                        revert: "invalid",
-                        handle: "> a"
-                    });
-                }
-            });
-        }
+        // Sự kiện chọn danh mục trong JsTree
+        $('#categoryTree').on("changed.jstree", function (e, data) {
+            selectedCategories.clear();
+            data.selected.forEach(id => selectedCategories.add(id));
+            updateDropZone();
+            fetchProducts();
+        });
 
-        // Làm mới draggable sau khi cây cập nhật
-        $('#categoryTree').on("refresh.jstree", function () {
-            refreshDraggable();
+        // Kéo danh mục từ JsTree
+        $("#categoryTree li").draggable({
+            helper: "clone",
+            revert: "invalid",
+            handle: "> a"
         });
 
         // Kéo thả vào vùng dropZone
@@ -103,60 +96,61 @@
             accept: "#categoryTree li",
             activeClass: "dragover",
             drop: function (event, ui) {
-                var categoryId = ui.draggable.attr("id"); // Lấy ID danh mục từ JsTree
-                var categoryName = ui.draggable.text().trim();
-
-                if (!categoryId || droppedCategories[categoryId]) {
-                    console.log("Danh mục đã tồn tại hoặc không hợp lệ:", categoryId);
-                    return;
-                }
-
-                droppedCategories[categoryId] = categoryName;
+                var categoryId = ui.draggable.attr("id");
+                selectedCategories.add(categoryId);
+                $('#categoryTree').jstree('select_node', categoryId);
                 updateDropZone();
-                fetchProducts(categoryId);
+                fetchProducts();
             }
         });
 
-        // Cập nhật dropZone sau khi kéo
+        // Cập nhật vùng kéo thả
         function updateDropZone() {
             var dropZone = $("#dropZone");
             dropZone.empty();
 
-            if (Object.keys(droppedCategories).length === 0) {
+            if (selectedCategories.size === 0) {
                 dropZone.html('<h3>Kéo thả danh mục vào đây để xem sản phẩm</h3>');
             } else {
-                for (let id in droppedCategories) {
-                    dropZone.append(`
-                        <div class="category-item" data-id="${id}">
-                            <strong>${droppedCategories[id]}</strong>
-                            <button class="btn btn-sm btn-danger remove-category">X</button>
-                        </div>
-                    `);
-                }
+                selectedCategories.forEach(id => {
+                    var category = categoryData.find(c => c.id.toString() === id);
+                    if (category) {
+                        dropZone.append(`
+                                <div class="category-item" data-id="${id}">
+                                    <strong>${category.name}</strong>
+                                    <button class="btn btn-sm btn-danger remove-category">X</button>
+                                </div>
+                            `);
+                    }
+                });
             }
         }
 
         // Xóa danh mục khỏi dropZone
         $(document).on("click", ".remove-category", function () {
             var categoryId = $(this).parent().attr("data-id");
-            delete droppedCategories[categoryId]; // Xóa khỏi danh sách
+            selectedCategories.delete(categoryId);
+            $('#categoryTree').jstree('deselect_node', categoryId);
             updateDropZone();
-            updateProductList();
-            refreshDraggable(); // Làm mới draggable sau khi xóa
+            fetchProducts();
         });
 
         // Gọi API lấy sản phẩm theo danh mục
-        function fetchProducts(categoryId) {
-            $.ajax({
-                url: `/GetProductsByCategory/${categoryId}`,
-                method: "GET",
-                success: function (products) {
-                    console.log("Sản phẩm nhận được:", products);
-                    displayProducts(categoryId, products);
-                },
-                error: function (error) {
-                    console.error("Lỗi khi lấy sản phẩm:", error);
-                }
+        function fetchProducts() {
+            $("#productList").empty();
+            if (selectedCategories.size === 0) return;
+
+            selectedCategories.forEach(categoryId => {
+                $.ajax({
+                    url: `/GetProductsByCategory/${categoryId}`,
+                    method: "GET",
+                    success: function (products) {
+                        displayProducts(categoryId, products);
+                    },
+                    error: function (error) {
+                        console.error("Lỗi khi lấy sản phẩm:", error);
+                    }
+                });
             });
         }
 
@@ -166,30 +160,16 @@
 
             if (products.length === 0) {
                 productList.append(`<li class="list-group-item text-muted product-item" data-id="${categoryId}">
-                    Không có sản phẩm cho danh mục ${droppedCategories[categoryId]}
-                </li>`);
+                        Không có sản phẩm cho danh mục này
+                    </li>`);
             } else {
                 products.forEach(product => {
                     productList.append(`<li class="list-group-item product-item" data-id="${categoryId}">
-                        <img src="${product.imageUrl || 'https://via.placeholder.com/50'}" class="img-thumbnail" width="50">
-                        <strong>${product.name}</strong> - ${product.price} VNĐ
-                    </li>`);
+                            <img src="${product.imageUrl || 'https://via.placeholder.com/50'}" class="img-thumbnail" width="50">
+                            <strong>${product.name}</strong> - ${product.price}.000 VNĐ
+                        </li>`);
                 });
             }
         }
-
-        // Cập nhật danh sách sản phẩm khi xóa danh mục
-        function updateProductList() {
-            $(".product-item").each(function () {
-                var categoryId = $(this).attr("data-id");
-                if (!droppedCategories[categoryId]) {
-                    $(this).remove();
-                }
-            });
-        }
     });
-
-
-
-
 </script>

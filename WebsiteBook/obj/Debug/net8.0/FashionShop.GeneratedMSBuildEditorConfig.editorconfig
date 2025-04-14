@@ -17,255 +17,257 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FashionShop
 build_property.RootNamespace = FashionShop
-build_property.ProjectDir = C:\Users\Dien\Desktop\New folder\Fashion-Shop\WebsiteBook\
+build_property.ProjectDir = F:\Hoc\ThayToan\Dev\Fashion-Shop\WebsiteBook\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dien\Desktop\New folder\Fashion-Shop\WebsiteBook
+build_property.MSBuildProjectDirectory = F:\Hoc\ThayToan\Dev\Fashion-Shop\WebsiteBook
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Login.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Logout.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/Success.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/VerifyOtp.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/VerifyOtp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVmVyaWZ5T3RwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/VerifyPhoneNumber.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/VerifyPhoneNumber.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVmVyaWZ5UGhvbmVOdW1iZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Register.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/_ViewImports.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/_ViewStart.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Brand/Add.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Brand/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Brand/Delete.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Brand/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Brand/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Brand/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Brand/Update.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Brand/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Categories/Add.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Categories/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Categories/Delete.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Categories/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Categories/NotFound.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Categories/NotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xOb3RGb3VuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Categories/TreeView.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Categories/TreeView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xUcmVlVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Categories/Update.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Categories/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Home/AccessDenied.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Home/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Home/ErrorPage.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Home/ErrorPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvclBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Home/Filter.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Home/Filter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWx0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Home/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Home/Introduce.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Home/Introduce.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnRyb2R1Y2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Home/Privacy.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Orders/ConfirmUserDeleteOrder.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Orders/ConfirmUserDeleteOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENvbmZpcm1Vc2VyRGVsZXRlT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Orders/Create.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Orders/Delete.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Orders/Details.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Orders/Edit.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Orders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Orders/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Orders/UserOrders.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Orders/UserOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFVzZXJPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Payment/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Payment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Payment/ReturnUrl.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Payment/ReturnUrl.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxSZXR1cm5VcmwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Product/Add.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Product/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Product/Delete.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Product/Display.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Product/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Product/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Product/Update.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Shared/Error.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Shared/_LoginPartial.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/ShoppingCart/Checkout.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/ShoppingCart/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/ShoppingCart/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/ShoppingCart/OrderCompleted.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/ShoppingCart/OrderCompleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XE9yZGVyQ29tcGxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/TreeView/Index.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/TreeView/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlZVZpZXdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/_ViewImports.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/_ViewStart.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dien/Desktop/New folder/Fashion-Shop/WebsiteBook/Views/Shared/_Layout.cshtml]
+[F:/Hoc/ThayToan/Dev/Fashion-Shop/WebsiteBook/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fhh5t3bk50

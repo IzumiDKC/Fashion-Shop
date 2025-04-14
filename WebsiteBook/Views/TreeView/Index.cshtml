@@ -21,6 +21,22 @@
         margin-top: 20px;
         background-color: #f8f9fa;
     }
+
+        #dropZone .badge {
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+        }
+
+    .remove-chip {
+        background: none;
+        border: none;
+        font-size: 18px;
+        line-height: 1;
+        cursor: pointer;
+    }
+
+
 </style>
 
 <div class="container mt-4">
@@ -41,12 +57,12 @@
     <h2 class="mt-4">Danh Sách Sản Phẩm</h2>
     <ul id="productList" class="list-group"></ul>
 </div>
-
 <script>
     $.noConflict();
     jQuery(document).ready(function ($) {
         var categoryData = @Html.Raw(Json.Serialize(Model));
         var selectedCategories = new Set();
+        var droppedCategories = new Set();
         var tree;
 
         function buildTree(categories) {
@@ -57,7 +73,6 @@
                 state: { "opened": false }
             }));
 
-            // ✅ Thêm node "🔥 Sản Phẩm Hot"
             treeData.push({
                 id: "hot-products",
                 parent: "#",
@@ -68,7 +83,6 @@
             return treeData;
         }
 
-        // ✅ Khởi tạo JsTree với thêm/sửa/xóa
         $('#categoryTree').jstree({
             'core': {
                 'data': buildTree(categoryData),
@@ -80,7 +94,7 @@
                     return {
                         "rename": {
                             "label": "✏️ Đổi tên",
-                            "action": function (obj) {
+                            "action": function () {
                                 $('#categoryTree').jstree("edit", $node);
                             }
                         },
@@ -97,19 +111,50 @@
 
         tree = $("#categoryTree").jstree(true);
 
-        // ✅ Khi thay đổi checkbox
+        // ✅ Ngăn click trực tiếp checkbox
+        $('#categoryTree').on('click', '.jstree-checkbox', function (e) {
+            e.preventDefault();
+            return false;
+        });
+
+        $('#categoryTree').on("ready.jstree after_open.jstree", function () {
+            $('#categoryTree li').attr("draggable", true);
+        });
+
         $('#categoryTree').on("changed.jstree", function (e, data) {
-            selectedCategories.clear();
-            data.selected.forEach(id => selectedCategories.add(id));
+            const newSelected = new Set(data.selected);
+
+            // Thêm chip
+            newSelected.forEach(id => {
+                if (!droppedCategories.has(id)) {
+                    const node = tree.get_node(id);
+                    const chip = $(`
+                        <span class="badge bg-primary m-1 p-2" data-chip-id="${id}">
+                            ${node.text}
+                            <button class="btn btn-sm btn-light ms-2 remove-chip" data-id="${id}">×</button>
+                        </span>
+                    `);
+                    $("#dropZone").append(chip);
+                    droppedCategories.add(id);
+                }
+            });
+
+            // Xóa chip khi uncheck
+            droppedCategories.forEach(id => {
+                if (!newSelected.has(id)) {
+                    $(`#dropZone span[data-chip-id="${id}"]`).remove();
+                    droppedCategories.delete(id);
+                }
+            });
+
+            selectedCategories = newSelected;
             fetchProducts();
         });
 
-        // ✅ Thêm danh mục
         $("#addCategoryBtn").click(function () {
             var newNode = tree.create_node("#", { "text": "🆕 Danh mục mới", "id": "new-" + Date.now() });
             tree.edit(newNode);
 
-            // ✅ Gửi API để lưu vào database
             $.ajax({
                 url: "/api/trees/addCategory",
                 method: "POST",
@@ -121,7 +166,6 @@
             });
         });
 
-        // ✅ Xóa danh mục
         function deleteCategory(categoryId) {
             if (!confirm("Bạn có chắc muốn xóa danh mục này?")) return;
 
@@ -137,7 +181,44 @@
             });
         }
 
-        // ✅ Lấy sản phẩm từ danh mục đã chọn
+        $(document).on('dragstart', '#categoryTree li', function (e) {
+            const nodeId = $(this).attr('id');
+            const node = tree.get_node(nodeId);
+            e.originalEvent.dataTransfer.setData("category-id", node.id);
+            e.originalEvent.dataTransfer.setData("category-name", node.text);
+        });
+
+        $('#dropZone').on('dragover', function (e) {
+            e.preventDefault();
+            $(this).css('background-color', '#e3f2fd');
+        });
+
+        $('#dropZone').on('dragleave', function () {
+            $(this).css('background-color', '#f8f9fa');
+        });
+
+        $('#dropZone').on('drop', function (e) {
+            e.preventDefault();
+            $(this).css('background-color', '#f8f9fa');
+
+            const categoryId = e.originalEvent.dataTransfer.getData("category-id");
+
+            if (!categoryId || selectedCategories.has(categoryId)) return;
+
+            // ✅ Chỉ được check thông qua drop
+            tree.check_node(categoryId);
+        });
+
+        $('#dropZone').on('click', '.remove-chip', function () {
+            const categoryId = $(this).data("id");
+
+            // ✅ Cho phép kéo lại
+            droppedCategories.delete(categoryId);
+
+            // ✅ Uncheck
+            tree.uncheck_node(categoryId);
+        });
+
         function fetchProducts() {
             $("#productList").empty();
             if (selectedCategories.size === 0) return;
@@ -166,7 +247,6 @@
             });
         }
 
-        // ✅ Hiển thị danh sách sản phẩm
         function displayProducts(products) {
             var productList = $("#productList");
             productList.empty();
@@ -176,14 +256,18 @@
             } else {
                 products.forEach(product => {
                     productList.append(`
-                            <li class="list-group-item">
-                                <input type="checkbox" checked disabled>
-                                <img src="${product.imageUrl || 'https://via.placeholder.com/50'}" class="img-thumbnail" width="50">
-                                <strong>${product.name}</strong> - ${product.price}.000 VNĐ
-                            </li>
-                        `);
+                        <li class="list-group-item">
+                            <input type="checkbox" checked disabled>
+                            <img src="${product.imageUrl || 'https://via.placeholder.com/50'}" class="img-thumbnail" width="50">
+                            <strong>${product.name}</strong> - ${product.price}.000 VNĐ
+                        </li>
+                    `);
                 });
             }
         }
     });
 </script>
+
+
+
+

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\websitebook\\areas\\identity\\pages\\account\\manage\\verifyotp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\new folder\\fashion-shop\\websitebook\\areas\\identity\\pages\\account\\manage\\verifyotp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\areas\\identity\\pages\\account\\manage\\verifyotp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|c:\\users\\dien\\desktop\\new folder\\fashion-shop\\websitebook\\views\\treeview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\websitebook\\views\\treeview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{98678FBB-6B75-4CC5-8F5F-D8109D8D9A6E}|WebsiteBook\\FashionShop.csproj|solutionrelative:websitebook\\views\\treeview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -893,8 +893,7 @@
               "RelativeToolTip": "WebsiteBook\\appsettings.json",
               "ViewState": "AQIAACcAAAAAAAAAAAAAADcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T03:37:43.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T03:37:43.644Z"
             },
             {
               "$type": "Document",
@@ -906,8 +905,7 @@
               "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T06:16:56.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T06:16:56.622Z"
             },
             {
               "$type": "Document",
@@ -919,8 +917,7 @@
               "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T03:18:55.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T03:18:55.681Z"
             },
             {
               "$type": "Document",
@@ -932,8 +929,7 @@
               "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyPhoneNumber.cshtml.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T03:18:58.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T03:18:58.474Z"
             },
             {
               "$type": "Document",
@@ -943,7 +939,7 @@
               "RelativeDocumentMoniker": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
               "ToolTip": "C:\\Users\\Dien\\Desktop\\New folder\\Fashion-Shop\\WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
               "RelativeToolTip": "WebsiteBook\\Areas\\Identity\\Pages\\Account\\Manage\\VerifyOtp.cshtml.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAACUAAAANAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwCcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T06:16:56.138Z",
               "EditorCaption": ""
@@ -982,8 +978,7 @@
               "RelativeToolTip": "WebsiteBook\\Views\\TreeView\\Index.cshtml",
               "ViewState": "AQIAAKIAAAAAAAAAAAAIwL0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-29T07:40:38.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T07:40:38.152Z"
             },
             {
               "$type": "Document",
